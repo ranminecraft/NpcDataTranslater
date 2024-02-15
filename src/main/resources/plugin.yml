@@ -1,0 +1,21 @@
+name: BukkitPlugin
+main: cc.ranmc.Main
+description: '桃花源定制24k纯钛合金超级无敌终终终终极版的BukkitPlugin插件'
+website: https://www.ranmc.cc/
+author: Ranica
+version: Release 1.0 Ultra Max Pro Plus
+api-version: "1.20"
+
+permissions:
+  bkp.user:
+    default: true
+    description: 'user only'
+
+  bkp.admin:
+    default: op
+    description: 'admin only'
+
+commands:
+  bkp:
+    description: bkp
+    usage: /<command>

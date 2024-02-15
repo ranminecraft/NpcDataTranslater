@@ -1,0 +1,1805 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 100
+npc:
+  '42':
+    name: 小安
+    uuid: 29bc94e2-49a3-4099-8275-243cb0c7c3ac
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 小安
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: Hauntings_
+        updateSkins: false
+        signature: lp6OFqG8+6npQU1bYATrlDszTPT9I3L6P7Yzqn1kTBKjlBvyGdojtkh0Rff4M0BD1A91ujIbeAs7XB2KcFg5Xxpwy+NhpGGmmZAeMC3joJpJxOfI3uwX39tC/QHcLGdxzG5UmMwdgpxDYnGDYWXQrouYC165pfvWHI6ndc9d80bjKM712ug5ltf27NhNgYWZDyyQR4wpwQlUheUzgav633P0iI1lP+qJWKOFkJdIGYKnHE8Dn94onPgDu4zmGjsjOUVPtCZ8EPKeRACKaBQ1NRvQHP4RIHfkzSBeNqx2qf+QjzP/rMoquGQXqSF+0KwpmzngPp4Iq4iqnS77KG5YlFGz34PVJBVi6PWBBg/+kYv2966yGh1TZHkWmuOQ48Z9GXqZvJ8s84hLSHMDaYLV16KjWf9zuSAISid/bBrP1oOf/NISVsYjEyxPCdfKYEGEVVCpFAcU5rLCEtAsQUXbPLBDWmdXQcVgvjeQtlW+p9fHWlCqd7t9P4aRngS2sGsY6GEZtmkZ+zdJP3SU/sM5fhkW+/tcEEpRzN/h+OIo0wx6YCGg98smv+0ZrdDuKE/4U2+Ert2SBlPnMIRaCxtAXPaRN6iZKLGYLgqHeoV9CuwsMS1Najt+NIedeiNCyFJd7JCzHSLQbFklpKRqW1Coq2G2gLjVtZjsMdLQ6N2/Yic=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTY2NzkxNSwKICAicHJvZmlsZUlkIiA6ICJkMTFlN2MxYWIxMjM0NzhmOTllMTVlNjEzYzMxNGYxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYXVudGluZ3NfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwNzliMTZhNzlmYzk5NDJjYzM5MWU0OTdmZTVjYWNmZTM4MTdlZDFlOGZkNWEyYTVlNzEyMDJiNWIxZTQ1MTMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -62.739365
+        world: world_draft_city
+        x: '-118.5'
+        y: '80.0'
+        z: '441.5'
+        yaw: '-62.7394'
+        pitch: '-0.5205'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: d11e7c1a-b123-478f-99e1-5e613c314f17
+      cached-skin-uuid-name: hauntings_
+  '45':
+    name: 光圈
+    uuid: 671641d1-33f4-4c4a-9550-4b89a19472e3
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 光圈
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: JF2+sSNJ5/OaHd+K0wtAj3AErz7Xj03OOulo3W6L23wuYhnljA8ZDAq/CHnGXBRW4w+9gw9P9X6NpYhCcmYvqr5c88Rz4MWIax532RsqB7VAtru0Co8bpcUwavuEAYu3IDrozNorBji/vu3HPrk65h9E4PsXwkMNhPp28gTVcNSYNxvQh5MGiLPEUbHTboLlH/kwJ4EMq2+O6I3Dh0bcQRxCY/2sZci0JPos1M1ja1as8WhH4TUHMnGBnB2FA0BiPkNvyjYMtH3llvA2ck9zpD+B1kj49q+07JS/cmvum56U8WyJVPkp5Ox9jVinaXbzi1aTD9ic9rR0uzlOXAVioZG7ZUPS4DTJLHdB5tgjAGcy/86Jrgr2emlQc0ETqy98vqAZ3i3VtiKgfLPyEr1awn7EuFV+LaqMWJ1Kx8IySrvIqZvmrQJlXG8buqGjmF6jJr+WVkzm+xKaHg+j6Drc8P7DoIDjH29eEcLGE+MbIqaH+JrbxHCqZJ+ijRimdDWBzkocS66RtpVK25kgAkvdhkJMrw6vwum63n9PL8X1GdOzBXLIWmTAKSm/q7Eq7GmWdq0IMRY/dJNIq5urJ5NusZSQKETB+RpY3csKi4Af0YhigJL2wr+NUEaTK3SvXR4/mG//2MCOb/oIPk0WijpEVvqAQcbALxU07KX1C1deX4Q=
+        skinName: Guangquan
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTc0MTgyMiwKICAicHJvZmlsZUlkIiA6ICI3NTdmMTdmNGRhODg0OTczODExOTRkNjY3NDkyZWQ3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFuZ3F1YW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y4MWY5ODRkYTAwNmIzZWI3MzE1NjIxYTY1NmNlZDlkZThhOTg2YWU1NTM5ZGU2MjUyY2UyNGJhNGMxYTE5YiIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -104.85901
+        world: world_draft_city
+        x: '-188.5'
+        y: '80.0'
+        z: '453.5'
+        yaw: '-104.859'
+        pitch: '0.0'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 757f17f4-da88-4973-8119-4d667492ed73
+      cached-skin-uuid-name: guangquan
+  '44':
+    name: 阿然
+    uuid: 4f3c3014-6d5f-4c57-9cc3-fb793c7cbdd0
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 阿然
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: FkgjIEXg+Mo0PIxUciGbFvztrGqFHKE4sZphlmUbR4l91Ddl84f97rKpFROBnamZ/Jz4tmN8C7ljexq7DgYpG+zy2cE5GmH0DZhfXXmPZyXI169hEPTiDhB7xHaBCFiMqEUHikUoWZ2Ji+HrCwhjTOP0WwZ3LZz4fNDyFkDZNUt5djFNdtWRzvC4fWFAY44FXvKDkCRnvreBmWfRU73NV+ZCTFXdgDG9f+yn3c+VH6vOCf42VnsDTbXSqPMmKdh3EAI2r4wHqV2Q7bDD5oioObj02gU/0QOQcF0o6ZUC0jcRbeh4aQld40jJfBKqZjKAHGZ2N7+txDDhSG0T9YQeUgUPcp5LaNyS3BgyoJl7klGmoBWTQIBodnSEKVpRuSznRsJRp+QGKaZgJXbJlWP71vdqkPAGo9CFhCol3sWP6MzrtfkG2IBon1bLGK+UIzp38/4lYfy8Q+AMsvj0BIswOrdLTtsJHsFF7WYrJjjVnm59fTjUrykt4EJBIg9f66UdxCn7/41i07ZInCTayuL4B9fSueKETFKSqychzq2iby1n190uDQp4D/fvUfkY+1ArA3u2fZK9cDB0D36/feiXgtEEwaKPXevrmW8syJqsYq3E25GlLEzWsmuccVO9WmfzlUiaa+oaDXr9ihwq5QkdI0i9q6YPH6PWXIu2SiQQyxA=
+        skinName: ranica
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTcxNzM1OCwKICAicHJvZmlsZUlkIiA6ICJmZjIwZjY5ZTVmNmM0NzZjOGEyMTVkMjg2MDg1OTZhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW5pY2EiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM0YTI3ZmM3NWQ0ODY4YmNjZjlmZWY0OGIyYzA5ZDFlOTNmNmJhYzQ0YzMyYzBmZjQ2YjViN2MwN2FjODIxZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FmZDU1M2IzOTM1OGEyNGVkZmUzYjhhOWE5MzlmYTVmYTRmYWE0ZDlhOWMzZDZhZjhlYWZiMzc3ZmEwNWMyYmIiCiAgICB9CiAgfQp9
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -5.6595993
+        world: world_draft_city
+        x: '-154.5'
+        y: '80.0'
+        z: '446.5'
+        yaw: '-5.6596'
+        pitch: '0.0'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_key: cornflower
+          amount: 1
+      inventory:
+        '0':
+          type_key: cornflower
+          amount: 1
+    traitnames: mounttrait,equipment,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: ff20f69e-5f6c-476c-8a21-5d28608596aa
+      cached-skin-uuid-name: ranica
+  '43':
+    name: 团子
+    uuid: 5f9bc850-c805-4c6a-ba08-0e81ba2dd022
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 团子
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: l0SHIzPKO0peqBSvss5f7hZaxDReFWvG5JxReiB4k1xjYpvPlZBxAD5FZhwCB3BHGWUOc/5im7N5MLOHQvOwofmrb63lyZ1nykmq0ouMByvYjzbKSfAmBMp0X53INm4TAFAI2iDtrOy86B3snXC0nCaBJv/4aWpm3zgNf4WisjIpFZiWsJHf6d6Yb+b0jSNxqpvlgjXvfMhkC/THrilwFFxCeUp8NoZXDQJv+4k6t5AJwJWcCVMWM/bUbL+7Zk+Bl7iiyQo/u3xSPbx0Di6B9C6Cv6oGyJXkbG9b7T84jFtlcUAmzjslPIBIIzV5NbJ/zfPZww1+88DnkCyP2lakJGEfYFYMkY4NQnjkvjJzMkXMvGuc7SBg/tdvkKFb4rxuOze1rP67BoYW3oB3xmvtSyvmZ/XToB/dyUiOCB8XzJuHSeZ/0uWh+rrgQAha0BP5Q72GtBtP6MveuJRqFH+lYKZRiQunxj9Xb8FgXgJv1XMSOfgtP+9Q6HyqcFHKBOugYaNGfxEJ64ZEe2exxdE7H7DEGiLhi5e5FhbCf2y+vFsW3vDoNX84m/u5l9e8w4DrVXRM1wjwqILKlM21SIcikJl2Rst3U2kAzhA2Bp1eVcWazHmZBS9EHSHvVpvwISigbM9K+5vLoC1a+GWfjD55+OOnm1DvjNI6eI+23fJEdI8=
+        skinName: tuanzisama
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTcwMTcxNSwKICAicHJvZmlsZUlkIiA6ICJiMzVhM2M1MTAwNTY0YTRkOGRiMmVjMzdkZjFiNTMyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dWFuemlzYW1hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ1NjU1YjgxNzJlZjk1Y2FiODQ5MDg5NjUxY2Y1NzZhY2VhYTEwYjIxMTE0NGRkYzQ3ZTcwMDBjN2RhNjhjOGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 86.65875
+        world: world_draft_city
+        x: '-151.5'
+        y: '80.0'
+        z: '430.5'
+        yaw: '86.6588'
+        pitch: '-10.7664'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: b35a3c51-0056-4a4d-8db2-ec37df1b5321
+      cached-skin-uuid-name: tuanzisama
+  '48':
+    metadata:
+      nameplate-visible: hover
+      cached-skin-uuid: b35a3c51-0056-4a4d-8db2-ec37df1b5321
+      cached-skin-uuid-name: tuanzisama
+    name: 团子
+    uuid: 3506f401-fa9e-4452-ae89-342a3f6670e3
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 团子copy1
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: l0SHIzPKO0peqBSvss5f7hZaxDReFWvG5JxReiB4k1xjYpvPlZBxAD5FZhwCB3BHGWUOc/5im7N5MLOHQvOwofmrb63lyZ1nykmq0ouMByvYjzbKSfAmBMp0X53INm4TAFAI2iDtrOy86B3snXC0nCaBJv/4aWpm3zgNf4WisjIpFZiWsJHf6d6Yb+b0jSNxqpvlgjXvfMhkC/THrilwFFxCeUp8NoZXDQJv+4k6t5AJwJWcCVMWM/bUbL+7Zk+Bl7iiyQo/u3xSPbx0Di6B9C6Cv6oGyJXkbG9b7T84jFtlcUAmzjslPIBIIzV5NbJ/zfPZww1+88DnkCyP2lakJGEfYFYMkY4NQnjkvjJzMkXMvGuc7SBg/tdvkKFb4rxuOze1rP67BoYW3oB3xmvtSyvmZ/XToB/dyUiOCB8XzJuHSeZ/0uWh+rrgQAha0BP5Q72GtBtP6MveuJRqFH+lYKZRiQunxj9Xb8FgXgJv1XMSOfgtP+9Q6HyqcFHKBOugYaNGfxEJ64ZEe2exxdE7H7DEGiLhi5e5FhbCf2y+vFsW3vDoNX84m/u5l9e8w4DrVXRM1wjwqILKlM21SIcikJl2Rst3U2kAzhA2Bp1eVcWazHmZBS9EHSHvVpvwISigbM9K+5vLoC1a+GWfjD55+OOnm1DvjNI6eI+23fJEdI8=
+        skinName: tuanzisama
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTcwMTcxNSwKICAicHJvZmlsZUlkIiA6ICJiMzVhM2M1MTAwNTY0YTRkOGRiMmVjMzdkZjFiNTMyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dWFuemlzYW1hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ1NjU1YjgxNzJlZjk1Y2FiODQ5MDg5NjUxY2Y1NzZhY2VhYTEwYjIxMTE0NGRkYzQ3ZTcwMDBjN2RhNjhjOGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -137.6307
+        world: world_draft_city
+        x: '-209.5'
+        y: '63.0'
+        z: '391.5'
+        yaw: '-137.6307'
+        pitch: '2.261'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_key: fishing_rod
+          amount: 1
+      inventory:
+        '0':
+          type_key: fishing_rod
+          amount: 1
+    traitnames: mounttrait,equipment,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '47':
+    metadata:
+      flyable: true
+    name: 签到
+    uuid: 89a0de33-3a90-4fd0-8e81-926b08e0b50b
+    traits:
+      gravity:
+        enabled: true
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -155.07922
+        world: world_draft_city
+        x: '-156.5'
+        y: '81.2'
+        z: '453.5'
+        yaw: '-155.0792'
+        pitch: '0.0'
+      type: ALLAY
+      allaytrait:
+        dancing: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 签到
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+    traitnames: mounttrait,equipment,commandtrait,spawned,gravity,lookclose,location,scoreboardtrait,allaytrait,inventory,type,rotationtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '68':
+    name: 小灰
+    uuid: e7f2689d-16ca-461f-8e14-73e7cf55767a
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 小灰
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      cattrait:
+        collarColor: WHITE
+        lying: false
+        sitting: true
+        type: JELLIE
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 36.253975
+        world: world_draft_city
+        x: '-13.5'
+        y: '111.0'
+        z: '758.5'
+        yaw: '36.254'
+        pitch: '0.0'
+      type: CAT
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,cattrait,spawned,type,lookclose,rotationtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '67':
+    name: 团子
+    uuid: bcda5116-5dfe-4e93-be72-c5200614710c
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 团子copy2
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      equipment:
+        hand:
+          type_key: tropical_fish_bucket
+          amount: 1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: EuJepg1y6LpbU9H1pkNZltxbfeRe6Ye4D1kRLnzcBwL/IisKXQBO/7oEKBAfxPy30DqDy61gjqzxdoFtAW5bPJqLU/60O/2W0xB/EazBZF2U8FeUTzT0YGc/0Bt5VpH/KzvGSDIU0rAY79HtF1NR/fSY4pHBogqU6PpotCWUCYCVgD+reRTntHv27fwk4IPStnDy+rtgsmKst5iPcM5VGYBFtXvTntVAOT7uZEA2htBi60INgUtV2bjOLuvX2VQoxfA1xOsaOr8AotkoQJrACTIQST/DgwOVGV0dJW5GRIyOfpbziTuDlCKqg8M3a/CKKfWQcZHGCH/4o/JDMOhopjzU4NHm/zOpvhyIilXaKQkursrGT9JP0f2QEZyOgwrH8wztjEhyuyyhXmrlXUlJec8j0i3A+g+PSTyQoqpantjKAkS4/52gkwRCxDSSPK8dmkw8Id8UttFc4+9Ky6DzPDwTu4KSS5VydSDUx/EwDE+lso23WHjCN9uKv91kVyC7cb5vKYfBdwQOvxQT+fBUvmpy8gnalyAHxEwuSzI+wrRKr3gg05SBM+rVaPsGgKY6hjG35cC1OKet0lZBqPAJZKnW0m1kpGXP1V7WiOLcdmSkngvXcjtNrHWmLqQs10CuprLlZs77ceWb10H/KKC87zUNpGCJzYerzuRSvuEkDog=
+        skinName: tuanzisama
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTc2MDAyOSwKICAicHJvZmlsZUlkIiA6ICJiMzVhM2M1MTAwNTY0YTRkOGRiMmVjMzdkZjFiNTMyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dWFuemlzYW1hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ1NjU1YjgxNzJlZjk1Y2FiODQ5MDg5NjUxY2Y1NzZhY2VhYTEwYjIxMTE0NGRkYzQ3ZTcwMDBjN2RhNjhjOGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      inventory:
+        '0':
+          type_key: tropical_fish_bucket
+          amount: 1
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -79.51869
+        world: world_draft_city
+        x: '170.5'
+        y: '66.0'
+        z: '451.5'
+        yaw: '-79.5187'
+        pitch: '0.0'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,equipment,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: b35a3c51-0056-4a4d-8db2-ec37df1b5321
+      cached-skin-uuid-name: tuanzisama
+  '66':
+    name: 月见
+    uuid: bc741e32-459c-4b48-b12e-1a6729ceda8d
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 月见
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: auuv0NBIqAv0M3BmlWcKLIrDpfoWFsSZ6NMMo3OaNe/2nxKSdH8lbghxPVOXX6U6vPvPa98pHKlh0T9S2M7obLXHqw8XChFsM/DTpZiZG2/kkqLCwW58F9dsAhiFZV9cnZWjrYcgI+BAxltOxbyjrN2WYmGgurrhUbwdvxSo6S6xVpIGQmUj9ozFcYFZm5a5vVjj4+Tb/MRh9IxXxWxIXxiDNLZzzAgbCr2dXKTYjnXLq1KuPK1yD1KJo1egW0lfr7pdt+q7YwJlT9O9QpIw2z80cH2/4xsE91FAeX9J96hW+d5Wq7MJ9Gv2vxS/engprZzdhOr0rTQ9crYh/VrCS+o9Nzig2cR3jRUboriRku4+9WskYFjMwjl9Rl30Zbww3eATIOVMdx+FSZpaX6Wfb3WZ6EopGlW8Vj1IbcqPyQ1HLHsmd6dLRidgeemZNtGDG8KPo9hzI7ZmwWTUO4cfrHSDPjCFadAKET/cI7X/3uFRoNbkVu6mR8a2k17Sm2q6w+KfWVkx5WRhEAfW4dnkr4bywtIkODx6nix+WKL3xBvu4cx2dRPgMMkMIpRims0effemx/JxcZ4j71NFrtzSnnDdcDwUnv/0n+Cs+QQ+uiaQyRryUUZuSD0LiqUt3npLTm+WWC+NbHIsYlc0pd0E7aWrnXFx8U88UZRVffueEU8=
+        skinName: yuejian666
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjQzMTkyNCwKICAicHJvZmlsZUlkIiA6ICJkMzZhZjUwYWQyNGE0OWJlYjc4MTlmY2Y0MDA3YTdkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5dWVqaWFuNjY2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiZGJjMTNjNjM0MTRiYzc2YzZiMmY0NzBlNDIxYmY1ZDgzODVmODk2NWY2Yjc4YzZhNTFhYjg1NWUzYjEzOWUiCiAgICB9CiAgfQp9
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -133.7129
+        world: world_draft_city
+        x: '-196.5'
+        y: '63.0'
+        z: '407.5'
+        yaw: '-133.7129'
+        pitch: '7.9144'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: d36af50a-d24a-49be-b781-9fcf4007a7d2
+      cached-skin-uuid-name: yuejian666
+  '65':
+    name: 海鸥
+    uuid: 516ffc31-1187-40eb-bcf9-ecced7a4bf95
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 海鸥
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: f7hXExBp6HnK5nasYOk6ZwwA8kLDvB8dl1AxjiZFep7PC1wR2qHAATgaZqkJtD5jEMlCfMmJyu5hAxaqozaMiF1WxAbFPZGwNGCtF/wg2L1Yt0/O6P0uuF1ZtUcU58Me+W09nrGu+ZTsq5rldd1LPtFAj4CBrTOfK+GzcI58hrjsGW+9DbPddIzS34FqHpDjGUzGk5gysi9hFjTlN+AXrlRWfigktJCMAZYSic7ZxQ+tQXgos6sB/z5uIaKIpaIx2ZdWUcuYYD6WdrrXU7R4V7fKFmUwYnlKYfrsFq9mRlZ6lx9XiG+yn0/bWknMR0rZEy5A3Dwu4WcIjwCGRHOVz+97Z01WZDlstlwC9q2RwczpHJZHX+wNB7xVUe1658ryr7E1d8xrpVNUOk+zdXYcyhhTYTWxNEdIEG3S+GVscMrlmmHQlYkza7nhINNgdczGLGIADaYt/O7cChAFvnBjKV+ZXpB2m3GBfaO/ahMfI3kSwiPR0XwoSSVl5h81gMxp8orY+eKZlyaumpuSEMIDZA88CqhWvBLUU5LGOn//42gz98eMYkJlnvVGh4glVm2rnieo6okkLNrSBkaMh/gWIgGMjZBg2VOtj5lfA30v9nsh+p5Eg4Q/8WcmMm3nVP8NaDAnpKjEfeeRQgRuOuf7ySusrTMYZSMXsDDRrFR1QMQ=
+        skinName: haigeio
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjQwMjM4NywKICAicHJvZmlsZUlkIiA6ICI3OGUzZjU5ZmI0YWI0YzM1YjE0ZGNhNjg5NWQ1ZmFkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWlHZWlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YWRhN2E0YzIyZjBiZGY0ZjNkNGIyOGUyODNjYmIyNjE4MzkwODBjZWI2MGU1NjM1NjY4ZjBhNGRiMTk0MTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -30.691776
+        world: world_draft_city
+        x: '-84.5'
+        y: '80.0'
+        z: '470.5'
+        yaw: '-30.6918'
+        pitch: '-5.1283'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 78e3f59f-b4ab-4c35-b14d-ca6895d5fad4
+      cached-skin-uuid-name: haigeio
+  '64':
+    name: 照桃
+    uuid: 65280e33-b0a5-4f26-9b17-0794650a1575
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 照桃
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: rV3LtRKqDQOfaLC5x95x4VCrCXwElMn6pRuJ3FkXdY3aRSeq4LO3brrDw80ZWd8x5ICQ20LC7pAJgzq+CzGMYJ/V72PanO1CyPEMQr09wOnECJwxXSOhZN+vctsKVo6O7w+1oLOMMXX4D6v77stpYZQZqxVLUDUeV+SBckL0lcTOrTjgJYnWchWfYyEUUq2+FZiQsvXgjgcCTbvtnDfGkHsHX5hiBf57ykf52U9RIoVomzh9WvQYfBSaXGKBEeEyH0lh9hI1f0M3kybIDoYEzScRPmjQjQ75R0gJl+ZZLyxchHtEUqaKRQfpLZ5amLGr6vXwrSBQt6H1tx5ukch7aFo8pglEcu+Onzipjk68Reaz2XymS6yfawRuy+jAA8sojTtsnhvfwX/164QiLqj+s6OdrK5qLQpCOmq1iHMaWR6iN+JXTmpyVGUghCrvof1C3/t1XXHvCtcp9Y4TM5CDal3+cr1K70FBR3ZcHSEdjLND7z2WVx4jmZAuUditvmgAfAu1xzbNsZ3XWRz/LFA1mT6X3as3bfdQ90Gg55HPYw5C6iOkyU1u/TGOIPLwPWe57qt8Q4t0vmyMXGzKb/PaJIdU43R/6fXZK+UkY235BZPNUwW2ZGkXY7xaoll5qpA7J95L6GphPdc5AsuPJOoU5Pcf7SHvkcAOA6l9bEvXGhk=
+        skinName: '666'
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjMyOTYwOCwKICAicHJvZmlsZUlkIiA6ICI1NDJjN2ZmMTQ1NDQ0NTFiYTg2MWI4YmZkM2Q5YjAzMSIsCiAgInByb2ZpbGVOYW1lIiA6ICI2NjYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU5Y2YxOTUwMWViNGM4Njc4ZjRkY2JlZDdmYTI5NjZjZDI0NzZmYWQyNDU5N2IzNTAyOTBmNzQwZGYzOTJhMSIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -161.34244
+        world: world_draft_city
+        x: '-116.5'
+        y: '81.0'
+        z: '466.5'
+        yaw: '-161.3424'
+        pitch: '-1.644'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 542c7ff1-4544-451b-a861-b8bfd3d9b031
+      cached-skin-uuid-name: '666'
+  '63':
+    name: 陆捌肆
+    uuid: b2fcad5a-25c7-4944-a427-2d44c26e4786
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 陆捌肆
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: Dd4YmqUoNcGjBMxhsoVaKmN+4CiTgQb15re8CkKy2GNmqQsM2KCsEyKiHdGeBnWGYB1zlLMjcLF4+hfeFo9K4fzQZ210A57aTHtSCTXey67lpuHDOz5IcKC2RnQvCbvG43utNV1bOKu2DhvrDde64Y3fBp5yM+APfgKInPVZ+RSOLaOG+6fIjYeJeQeSMp0KvlTAmpLgAEbporyLRWbw0ZKEdML2FrhKnbJAcKNW7JeoJzxrJq/aFD5Z8R/btw24c8dagYGaUpS37KwURWS5h3jQ1bUlcyd+9LykmpIf/l0aFVA4YV4tDoQOL0/9sMsA+uljdlzWuEHIIfCCryMEt1Hn0d9HgYiTcqIj6RFGqq1+G63u5deuBsLBDoig+tOCfMkrcVMJsaoVJAjmoNOLSUrUqBAwxlMoP6rjkuYdHswyNDgBgd+8lRJTWXcZIWYor2dScteDOP1w5F4Ytea0xLvCw1xGKC1fYe4RYgFznhU/wcaXwKRajhjfBS1XbyqztbHeBbBcZNq6i5IpNuvaqOZ1YyRtKHY9/hD3q2P3KBbCm62Vmo0tSxs5N5SkKViUjBkEx5JmQVGljzd5oI3u6vZGuD+0FuR7XrFuiTAtj4hG634wq5EB0v7PtAgqdePDe1aPeuK4urYGepUlAz6WI7CRqYlERGgn1tFjMrzA3I8=
+        skinName: moonboss
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjI4MzczMSwKICAicHJvZmlsZUlkIiA6ICJiNjNiNzgyNGY1NWM0MTNhYWY1NjMxNzg3NmI4OWQ3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb29uYm9zcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZWIyMjZiNjRhMTNiZDg4YTEwZGIyODRhZDZjZTExYWZiNzM4YTcyM2I0YjRhYmIyYzkzYjAxZGE5ZTIyYjM4IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -86.32501
+        world: world_draft_city
+        x: '-187.5'
+        y: '85.0'
+        z: '431.5'
+        yaw: '-86.325'
+        pitch: '44.9991'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: b63b7824-f55c-413a-af56-317876b89d73
+      cached-skin-uuid-name: moonboss
+  '62':
+    name: 白酱
+    uuid: 6f9ce57d-078c-4ac3-ae00-904b7cca5e0c
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 白酱
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: otvDOSp6qDX+RUKJ1B1eB0xdqlDKNKJPO8uZ57SjUgrnuK+oH3XRWk/7um2NHMttCDatph5rcqLLY+3J68wKhSsQpfdhbpH50Pfks0PkHR4EaaCa7Y5cEMqgzxUHiaUvuA6irAQ5Yil5C6JIwtln8V77EkFYF9/GAO3WJfSiIzZfnt8c/Jtcx2DW+/nFY0FXh7+WVDLUuReNiu19Y10fnkqBiPEoBCMAtNz0yQRnuqRK72NWP6d9KjQfJrHmSajYoQIc+ISTAIVWWz23WcJPPZEc8rYGmDhfgkYE0DV6bus5emtEJcNzhoHTVYnYU1GJkmkuPtiFuaom/YFbs+4Km0omI1W4TPt89T7mltqb3EOn+Xk6aNk1bi7qse6kg6tjXIf1dBbtlYNmlthc1q8jUZYDCi6H6wicfUBIXxNZ3OgC/nDCJP30svDqRCPt6fCW15HCuNIoqHp2A+hicIu1+7yfuUBBnY/pIP+0hHOF4X7TW03k2AOjWLUlOvEEmP4ecCQCoBak8nP8g4R0tHNdSpIoNUAUsfzziqTuSRm8k5+oEJ/ONjRetehqa6WKWlRF0U+Y1eX8oBbX4j2CQDZC70yOl0twCZ1VCuwUDN2kPSCS7qtVURnlkXXvcOISCM/G4sY/7kuZumdCkR7C0MHd1w6WXBj/0MUNka0iW7Fuamw=
+        skinName: Nan_Bai
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjI0MzM5OSwKICAicHJvZmlsZUlkIiA6ICJiYzQ0MTE3YjBhNmI0NjMxYjAzODkyZjU0NjNjMGFhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYW5fQmFpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkMjJjYTg1MGExNzEyYjU5NjhlZjVlNWIwM2NlMDUwOWIzYTZmZjlhM2E3OTcyZWVmZTA1NTcwYjgyZGZhZDgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZmQ1NTNiMzkzNThhMjRlZGZlM2I4YTlhOTM5ZmE1ZmE0ZmFhNGQ5YTljM2Q2YWY4ZWFmYjM3N2ZhMDVjMmJiIgogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 3.6202621
+        world: world_draft_city
+        x: '-241.5'
+        y: '124.0'
+        z: '448.5'
+        yaw: '3.6203'
+        pitch: '0.0'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: bc44117b-0a6b-4631-b038-92f5463c0aa6
+      cached-skin-uuid-name: nan_bai
+  '61':
+    name: 潘潘
+    uuid: 7620b83d-a13c-4eb6-89a4-05c832b5b154
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 潘潘
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: otRi/BS3/FsU1TULnj96HPbgOEbmSWeVEl/CKijqDSTTZ2RXQlbxl6T6oBHQd8flDyCANMlFNbQowLiqH6BuSyMF0sIyrJlcqIb4c7Jzd870i+n0kIVFRPKl3NrGr1rYO5WcsQQD1zgJ4ZVVGAWMRL5gT7Pc8mMGrJKz9njTpLOTGto+4txTtgc3zAAiIpsKtTp1nK+h0YbxmdHRF7FXodKvS0DHyt9Vns7gGPSR1KN3ld281RwcZ54fpXZ+56H8rllsfJZhKWV+GFWKNfz2pJGiG+O8KsiUfBQWYgpcHRsKXtuR99VH6SPwN9Ri04xooo7eH+c2/+0N/i/LW7SGUWM6J15em3Ed6AUNXBKbRv2gfrZKjhd2bxS6qQ5QyE5TILlMuixQ0HPtyFUM8xA+kH+aQdOfV1iQwTvkczIbGqsSKNBIoMOjeD4l+mA68EGEIZFtFtK8S8qF6Nqzhbe3ev3RhL2nH1YyQYc7ewTG6U6WhcbtFPMjva5MRYzfVnaGPCTWn1OmnZwx5O6/HqBB0JNFVUav9gAFQXEAXDe/Cp3opx8qUMpd2si93Fj0/p6ElG5TawE/Z6jO8mTpENYCC+SdXsSNS+VjMf2E/8ZisnZ/bwVF3/HMuRU4Jn78Q7CRmLG/ahEzmkKraQTOuRQYD2R49YPf2LHNtQO0SS4TGoU=
+        skinName: mc_tiancan
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjIxODg5NiwKICAicHJvZmlsZUlkIiA6ICJkM2VmOTBlNWY3MGM0ZWQwYWYzNzYwOWY0YjdjMzQzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJtY190aWFuY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0ODg5YWRmNWE5ZmFjNjA0NDdhOTE5M2M0MWZhNDRiN2VmZjBjNmE2M2E3NzQxYjhlY2E0NDhjMjc4MTdhYjMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 150.12376
+        world: world_draft_city
+        x: '-11.5'
+        y: '80.0'
+        z: '523.5'
+        yaw: '168.6795'
+        pitch: '-10.7911'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: d3ef90e5-f70c-4ed0-af37-609f4b7c3435
+      cached-skin-uuid-name: mc_tiancan
+  '60':
+    name: 纯爱
+    uuid: 2ad8c353-3c0b-4f46-a946-85ebe328b2a0
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 纯爱
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: UyIUQEtJaScKCDjlH0CNDJrObmhcl91yfx9KYxP1L4zMMIwGVrw8Pnu9CLfddLAu/KF1TYB3D497rWLxJ5Jq5bxpYEPuSG1iyM2lqYiRAePXa7QPN/f/8vN6dcr6VNeszbfmGxyUteqbk8XAOZRic+hUtx/Yj1RxbnvyR8SJo+n9cD2CzerCIoZY4RbWD+EbdpzfLLaoyC1/7lhK+5e8+hqX1gDRDAjUpOETYgrODP73NLgugtQWhHaIK/s7/YaQMLcN3t+qBoLuMrfxMr0bGFmjQ+45AClJBxIRlf/QYXSFA/XAFXCX0Pm87z/2Eo9zi7pMNJgoW73Dl4z8DByFYg1VawqUYCZxwvoyHwzIo0uOABErrYp6KyZUQD7VpS4KiPQ2K9CwJ/1SStnucFjOwFparb3U/yTlpNnF5CgYU/lMFyEi4TdpI7bCgbTGNLFeO45PPXybulJDQVbCjF3cbDKL1q9Tb/To42xz1b4eCe/gUfLmHBh5WpZ7DuU62vjcX7nHSzHhclr8EHmzcySjryKWhHJrVbqK+l8o+X0Yjjtz99L5E7u4PwD19RA541Xy5WRwJa+3D1PZfFvVxxSbnfxeuJfijl6FaXd/ifmxLnrHrYK+ULqGcZShsjyTBXtRV83DTQlaEyya+skKApzKW4EoOUM4gbhL5zbN5y1a6+k=
+        skinName: Bleshadow
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjE3OTY2OSwKICAicHJvZmlsZUlkIiA6ICJjOTg1YjY4ZGJlNzc0MGU1YWVhN2Y0MzdmYTQ0MDQzZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGVzaGFkb3ciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE2NWJlYzQwZGUwNzEyZDMwZTY4YTVhMTRhNTQxOGNhNTkzMjgyOWRjNWExZGUwNTdiNzZjYjI2ZDdkMDQ5ZSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -53.95006
+        world: world_draft_city
+        x: '-139.5'
+        y: '81.5'
+        z: '369.5'
+        yaw: '-53.9501'
+        pitch: '10.8532'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: c985b68d-be77-40e5-aea7-f437fa44043f
+      cached-skin-uuid-name: bleshadow
+  '58':
+    name: 蜻蜓
+    uuid: 1cfe8e12-6709-4b0c-9773-b58c40511066
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 蜻蜓
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: oXPKJz3irE3/C1jCxUVE9/CNejkBuYg3WAh9X3JpTrTLRW/pf3zc2CWDZfCLNyBcO67BKAQXY8X9uy5H9VS0O4PwjEzuhqE9LYwP4YDdNal3CW/gMzVP+5M8KKRM8kzvWeg0lia+oAjedgH+JGRGlIsUlE5ygRolv+I2zvMBVhAiRzGbEHGF7HtBaxUEmiDoRF9fd6pTwTO4BBtqlwNxB4OAI18n1kb2KkPejptdfKIM12wXUGIe2Bx4/oz3sMGeswh+LBtF5aG4WvNqNIj36X1ym8EIBb6UQJtNxkip7YkN7WRIHspQvkMIM8iRifVGOYZ99vbsCWsy1/wft6q6hdFQzaptOE5bMEfx6qQw7+pcWJeupMPwLleu8Cv0lunAnoEJHFoEWu/x5ZA4nRkXqo2cMibfjen+DdyWI4vg5ic6pagdC+SpT2FiNU5vGi0A2awm1QsbcF9BJMTy5j7gGKg3zkW01724NdLY4SRxZpbEDCzfZ5aGXxluHE7xeHbAAAR6Wwd3EWKz7kWLTS5BLFZYXqwvw+54BZRZG/4Dj77v1O4pyZEdVIVxuNYhuTNp9tkR88/EmdzGFMO4VnIpZwlM/kohL2eejuY+tcS8GL0wNQp3vZr3k1g6B4FNzZxNxOcb6trueuv/jDzQrSIOSgQoXu04V3lPZVzedXcatsI=
+        skinName: DraGonflyCP
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjE0OTY2NywKICAicHJvZmlsZUlkIiA6ICI1ZjU3Y2Q1NDliMGM0OGZiYjBmMzFiNjFjZGU0NGRjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmFHb25mbHlDUCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNmVlNDM0NzUxODNjMmE2NDcwMTU2MTU3OTg1Y2IxMzcwMjA2NzBmNjExNDc4NmY0ZDcyOGI5ZGU4ZjI5NDgwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 129.66885
+        world: world_draft_city
+        x: '-195.5'
+        y: '82.0'
+        z: '497.5'
+        yaw: '123.8974'
+        pitch: '-18.0611'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 5f57cd54-9b0c-48fb-b0f3-1b61cde44dc7
+      cached-skin-uuid-name: dragonflycp
+  '57':
+    name: 祭品
+    uuid: 2932a27e-b570-4498-9487-f213bb5bd23c
+    traits:
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 12.961212
+        world: world_draft_city
+        x: '-94.5'
+        y: '83.0'
+        z: '378.5'
+        yaw: '12.9612'
+        pitch: '0.0'
+      type: ILLUSIONER
+      lookclose:
+        range: '8.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 祭品
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,type,lookclose,rotationtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '56':
+    name: 仙奈
+    uuid: 9cb78336-3ae4-4d2f-9131-3beb498f1486
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 仙奈
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: x8bZbX+NlVrw47SPFrqYzXvHcldwHvTRpX41qJFMeYl3MiUbDFPZSm+OIbtkNfk7QnxS6j8o68Zx1jbaRZlnqAj06JLjRuPBpisDYT2430Kr/99gIVLGdl/5uX1EWm2zvofYbmHnCScWaKE4dbNnU0dl8B2uAXe7lgUVz600ToGndSOS0s93pys49V4Ld9PC4OpEEPLZ+St/9tEIrXKDJkWSEVJsAE/ivY7/VRNEmVgtJK2bQz22RaM9PeH2bYo5dvGjV5cTgPaGXCX3j8yh7lyblQPTEuAN7CWzCbRSH58D1Kdy+Lb8yiEP7d3FTdUEbW5KyLWTBAR052OqsOZ1UstiV6KfZqVN/kzEP1S8vbiqnT5lsmZA9xS3fiW/2y1wW/wzLiAP2IpQPIxeFNLfKre0VcmMmXsMxEUE5zpwcpqhpOYOG/qCEGxoMLg+0HYFfk90dnKZUPFJwZ1Ta4fHPPN8Gh6hlU6R3CisqQ1IaCpsgKCERwnCsOluXfR6ZA1mVM5nqFuvy3JyP2UHtP7Y5AA0zdI3Q5ACy2jMdNHyoJYv54TBO/Y12ZdOU2BdCOk8eUE0qGFtBdnqA3OgIvWzIbHUvO6IpaEcjaj1ykl+IvxlSLWyPrynKItaBLCCg2Ni+0l7yCg3yTzYo6kAx2MVHTDL0vYmWakDWBNJgC3DSTc=
+        skinName: _LoveStory_
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjEyODU0NCwKICAicHJvZmlsZUlkIiA6ICI2ZGYwMWJiZDliZjI0NWNlODE5OGUzZTFhYWU0NzczYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfTG92ZVN0b3J5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZDQ2MWY1YzdhOWJjODFjNzc5MTA5ODBkODIxZDRhNTUwNzY2Yzc4NjdlMTEyZjA0MDc5NGM0ZmE5NDliOTc0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlhNzY1Mzc2NDc5ODlmOWEwYjZkMDAxZTMyMGRhYzU5MWMzNTllOWU2MWEzMWY0Y2UxMWM4OGYyMDdmMGFkNCIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 35.890083
+        world: world_draft_city
+        x: '-96.5'
+        y: '83.0'
+        z: '390.5'
+        yaw: '35.8901'
+        pitch: '-1.0221'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 6df01bbd-9bf2-45ce-8198-e3e1aae4773c
+      cached-skin-uuid-name: _lovestory_
+  '55':
+    name: 和泉
+    uuid: cfb8b597-8a24-4103-b7a9-45e3be64be06
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 和泉
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: faDIgDwECY2IXoWdfzkhF5xb22LqKA+mmeeRSAc/RH3VWFKF4wQab1+S1VQ4LP5rhrT7mVEYb0dnvkfr1ndEsaXfhBuEzpni79K1JUoFAtpsZQx9R9Ksc6HEWbt3Ne/4UEQ5LMz6HygppjNPlrCOnlDymj0ll54hBzAS0Vz2e9XwUhzmqWy17meFvn7dxVC0eHb1GSK42hUuPHjYHPCUUN2v3qbyVeozS4gBwjNWarC/6OmgoPq0R80+mE+kd+XlAaa+8YlVmTaYOsIzEFJBvqpHgzn9SWKHEmd4LYzWFe8ifPtGEdLvyo1yniOMrGWeP70JRXsnvEGAkMzHkJaJi+gDs7U0e3jHOU/MSOQxN2tmICuOwdt3SJnLRlER0AqO9cX1lw6Wcdmua76nD8PMyUvNZ6tl7vnrQQD+kXm3VqDIuQ7mk43MVcECliF7HCbHKIbZrnTgsKukQyguWuppK58/2dca5yYnXIbtCK6CjQHYXWCchMrdBWOrvTEkGtSLi9/ChBCBzANnEJEwihUruo4MqtwXjAe86rvjwnVcWaMmzMxBgCteedpWXfl3h85cxJMyUYS1DA6yhmc9DS3jyuCTjxBNgp1t7bJLpOTys10+/+kSRPvSUPQ7Nmj4TzSM9e31Jf+BjGYLRhv+msRKx/BEBiueogiJtuFFE+BSLAo=
+        skinName: iaran
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjA3OTMzMiwKICAicHJvZmlsZUlkIiA6ICI4YjZkMWQ0YmUxNmU0MmEzYjk1N2E4YmVlYWZjNDYzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpYXJhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDU5NzcwZTY4NzRmMzRhMGRmYmM1NmQxNDYyNDZjNTE4NjZhOGYzYWMyZDY1MDMzMmVlOWRjZDYyZWVjY2EzIgogICAgfQogIH0KfQ==
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -100.88624
+        world: world_draft_city
+        x: '-189.5'
+        y: '80.0'
+        z: '433.5'
+        yaw: '-100.8862'
+        pitch: '-6.2229'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 8b6d1d4b-e16e-42a3-b957-a8beeafc4638
+      cached-skin-uuid-name: iaran
+  '54':
+    name: 水中的亡妻
+    uuid: 54be4c4d-22f4-4069-90d7-ad7e692d5219
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 水中的亡妻
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      equipment:
+        hand:
+          type_key: wither_rose
+          amount: 1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: rtvBeRXrivX67CqcNaXtBM+BDzt46Wm4G1NVZBDAHg6WIM3IMnLRzctk7aZM3ObP1IHE4EhGTnG/Fv2sXIqVTR3skEDpVXBrnvTmSJGC340QPntD6dOyOzdZxaspuJz14MpSBRoWTWxF83xahsWwqPU7RYVpzPPpq6ksIDh5EzeisxmToReA9+xgNQ5BxYbZqSrVzRBHNWIEpPPMph3HWe6zZ3XslqrVrwZmu5b+fZpqid2DWu3XBfGVNEE4+iJ1QhCWGjV9YhfzKppwiJu2dwuhZd+xYH7cKyybLA6XEhB3NmsMU3TEThtsECY6YTA8m3I1FqL2CDS6pm/FWhTOoM2kZG7I2K/8qHYdBTVPMxwB6CB7VwZs9T4MmvtSztY32v+cuYFGDz/6Rb3Ean5kY3KDyMRNqMoSahY2rwRPqFhc8q2xtGZyQPP/GVze5FgRhxGLxzsYw9EnLkEh98EUeiNH71cyvLlJ7jDKjFd0KXHZ9a2Tj1K9YpGra+5oQvO5BVOIpCehU7EWYIBh0sXcSejuM/2jIIw1v1wH22Lx1xwPvb6POsknpKKJjXCkgIjPkWHoD0wbxzqFZqCKZZ9DPunvR98AiR4j6QpdcwftDRtB/Yga6GjMRNBZnKqdAIMI/hyAwe/9uEXlIYKFbHOsBEsz096ZsYJYutPnmjn5qwQ=
+        skinName: --file
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MjA2OTgwNiwKICAicHJvZmlsZUlkIiA6ICI1MzE5ZWY0OTAwNTM0N2RlOTkyOWRmZTkzMjFmZjQ5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzeHFjdmlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkMWRkMWE1YWRjZTZjODNmMDMyNTJlYjZlZWRmM2NhMWM3YTE1ZjE0NzNhOTU5NGE0YTAyYmFjYTFhYmFiOGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      inventory:
+        '0':
+          type_key: wither_rose
+          amount: 1
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 139.85585
+        world: world_draft_city
+        x: '-154.5'
+        y: '69.0'
+        z: '537.5'
+        yaw: '158.8301'
+        pitch: '22.7587'
+      type: PLAYER
+      lookclose:
+        range: '8.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skinlayers:
+        cape: true
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+    traitnames: skinlayers,mounttrait,equipment,commandtrait,spawned,lookclose,skintrait,location,scoreboardtrait,inventory,type,rotationtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 5319ef49-0053-47de-9929-dfe9321ff49e
+      cached-skin-uuid-name: sxqcvia
+  '53':
+    name: 伍六七
+    uuid: 6b4ef566-2a4c-45f2-9731-2534e4945a37
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 伍六七
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: YnpfvwL2NAE/i98s2MI9lcIQFPkjAeTF5BuUvKgi9m2FsiIyqmR8NKgBAoVf19+2rem2uAJXewoYc98eAVdxXX3QrNqarqUla5EeC0pknTqXkxPCh2qJ8m2alE5EFpgudjKuAEMhDIJcEAcLmxAGF76l1N0kqRZxqawOqCHH1VSFouhmSsLtMq3MheUEO1X26sEZnqu9Wd6MdUdulQZsIZ/QCiPsJhErX/XxYmk1WeYzsiCzf4wzHe3lcABqvNtFqBtFyI8nfi0l07PyDcLmV4rflrKKXLqUcsnZxDExpfBvle6nLN+0nz8POjTtq8ciiy7lEj80mUc+XcpTY+2rJberqreIqdYXX9NPmH2VyvHFtBXjZLrhtlZlyX52Hk2rNSX8eoHMdV6cWoCKKrkRxSQO7n6mUC7+nCBLHe/ld6kp+jrpstciQdjHgN8mnB1K8A8hsI6USmHiLJIeGlKenD0heMmkIoIETBEUosrkvJf0yvqMSY9s5V+7s7glX/FRDRp7oqSC1mYKLh8olhtXZV40+4vYpnCWFJQALEAsbEp0K39RobLOFeURABzsjS+Zx5B2fFCzg2TL9Xoy0gqvEF2U7pmHXLJ9JI63/wqWZq0DiZbuDy344A1xdN6cX5vrAsgBiKsG/zjl9JmnfY49v25kcP9DknhwRju3f0w70lg=
+        skinName: ficklepickle21
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTk4NzU4MiwKICAicHJvZmlsZUlkIiA6ICJmODIxMjhiMGZhMmQ0MGUwODMyYjYwNDJjZmViMjU5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWNrbGVQaWNrbGUyMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZTkxYjAyYTc0NjdmMDRlZjdjNTEwOTZhMjc5ZmNkODNkNmRkMDVlOGJjYWVhYTBmZDU1ZjRkOGNmOTZlODNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: 129.4924
+        world: world_draft_city
+        x: '-165.5'
+        y: '111.0'
+        z: '509.5'
+        yaw: '109.4924'
+        pitch: '-8.1398'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: f82128b0-fa2d-40e0-832b-6042cfeb259e
+      cached-skin-uuid-name: ficklepickle21
+  '52':
+    name: 若璃
+    uuid: fd9ad29e-80e7-4098-ba8d-907d90337ed6
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 若璃
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: MAw/0Mb9qz/AYN90qYQpfFS4o93f7STtWicSLXyTeG2/4KMdguGBVzznTwAtxlNIICKzCBuRZbpPylAtKO5B4UrlvpzHB4M9Aa4iYSUKpGPxcbHLBa2/TWBpP7eO0NhgRmsif08MCL/GO3A9tYqcPADIQmwink7TcN+taQIs6F+1J3+hdBNLZwOJJW8NPXBwHRNkry73v7Rd9DROgiUOP67L9y/dQ26C3lTQ6bvgNtHcM25c2YhuR6Mwd1wH+5Yxrgup9X+yCMAey+UOyWEJcKQDXnnjy86o/MUfH6zm8MQKL5pSLDX8mmFkpDYtN9XSt9EYaeiiE/rhUeBrf6+VnHeJQVQUhVexDJrI9cwT9lU/Tjpl3RLw/OHfw50YayNtS9jqS6DsRBGcYVqE+FhH/i/GUcRMyp1CTuU0S05FaxzGeFfPvROytb65FR2pXuVdBvSXMdZnMbMLcgD6T/WclwcpBoIZLCVecGfEQMYZJtcjV30875YIIdDt7eU5f8ZUHqv8tiAM29Q4ATG8J4zZqkpIcG7fxv+ZkuxcoGcyGXwLnCIf8ci8JtCkIwKTwzTry1MAFhdwEd8mzXCkeP9qI7BHDbkAoUCSzCjLaOchbUKvXZO1/8UyNvbOaUzyCXe910OowBT9sJnwlfbLnJM8cHW0GMl/qyPhjqlRPTzGjkU=
+        skinName: SoraKazugano
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTk2MzU1NiwKICAicHJvZmlsZUlkIiA6ICIzYmI0NjgxNDIzYjc0MjI3YTU0YTM3NDg0YWMyMGFlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb3JhS2F6dWdhbm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIxNTUyMDk3NDFmNGU5ZTMwYTFiNmE2MTMyYzc5YzRkMzJlZGE5ZTJhMjEzNzhiODljNzdhZjI5ZDgyZmI4NSIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -126.0148
+        world: world_draft_city
+        x: '29.5'
+        y: '79.0'
+        z: '455.5'
+        yaw: '-126.0148'
+        pitch: '-8.3732'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 3bb46814-23b7-4227-a54a-37484ac20ae8
+      cached-skin-uuid-name: sorakazugano
+  '51':
+    name: 给若璃的礼物
+    uuid: 2b2a14cc-95f5-4240-a16c-bd2bac559e5e
+    traits:
+      shulkertrait:
+        color: PINK
+        peek: 0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 给若璃的礼物
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -72.75833
+        world: world_draft_city
+        x: '-164.5'
+        y: '142.0'
+        z: '508.5'
+        yaw: '-72.7583'
+        pitch: '73.5759'
+      type: SHULKER
+      lookclose:
+        range: '8.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,shulkertrait,spawned,type,lookclose,rotationtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '50':
+    name: 春天
+    uuid: 43835c9f-59eb-4ded-aba7-c32407eed6d9
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 春天
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: v4IJ8yQP12Qnlujid/kPaTA31ZnlIeWYTsG7om347ZXOeqU3fT4DXoYe/8BEKjA2LhpqnT7Mnh/Rz5q/5zC+ijcDOc89Auc0FBZGNwaSh4X69c9TQMiZlOrrB8NjLRuIniDMrdZfHiXSwTpzbrq+GalYNFFeshR3RjKOU4HUcaBDVcMv/3/fa4kYLtdJFY67rp4RQhHxmbeCv+GaA1GcFy7gLdVpgTDTG9PKO4Neoy/BWn0WR8OGId+9CGFy2ioqC87bfQ8/CGy4fnPpOFlner4Hsjd38DOTQtM1JSWUmHJuAsbR/ESlRqGHFvHc7hdFcA0E5xDjECHxnyVTXe1qDuVG289T0hR9z/XWyFrosgoSrDcBZfk4nfSUgxkdXz/6CMyyROUwcoAQ/hbLPPKBtTMRYIyBFqC/rP/dwKryYESg58VS0K7sXLGpo2+igw6DURDNtxi8sKme/2AxQfSNmyuu8LUwXWA8f465/Kye31+vIkJ5HPBaXRR2vMgu7fUeqTNqydgzX9Lxbc3VmZmhRNqt6evEiUXVMyEzi1xSCIXYUG3rOUNCHU8BZc7qTwH65Wey2ftnHpjVDbYFAzK71AjoRgWLfJnBETICULaJImRQIZEVbMIw3Dyu26wvSjgPxhtjRZMw7mGHuk9MFom2ClO670RpJuKJGbFW8cg7Cf4=
+        skinName: chuntian
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTgwOTQzMCwKICAicHJvZmlsZUlkIiA6ICI5YWVmN2E4YmE2YmM0ODliYWFkNWM2ZDVmNjQxN2YwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjaHVudGlhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80Mzg3MzQ2NzBkM2Q1YzU1MjI4NzY2OWNiZGU5MjQ2YWU5MDJkMmI3NzVhZTc1MTdlYmE3YzkxZjJlZWQ3ZGQ5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkNTUzYjM5MzU4YTI0ZWRmZTNiOGE5YTkzOWZhNWZhNGZhYTRkOWE5YzNkNmFmOGVhZmIzNzdmYTA1YzJiYiIKICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -158.61661
+        world: world_draft_city
+        x: '-130.5'
+        y: '75.0'
+        z: '541.5'
+        yaw: '-158.6166'
+        pitch: '-1.5931'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 9aef7a8b-a6bc-489b-aad5-c6d5f6417f0d
+      cached-skin-uuid-name: chuntian
+  '49':
+    name: 露露缇雅
+    uuid: 62aca7fc-0041-4052-9d21-2b65d70abdac
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 露露缇雅
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: N7HflwEH7hmZh5JRFh67L7JIDfhqic5f0NZ7Nxhjv8eSt/OyEFRAOECiebqDGXNC9v91JJAbi6wMZrm0mlDTOqiSYuqkZYeZEOpmdVmDWdu97Scle/N976k9eo7dNJE1pC2is5se66g14Cu/e8zik76J5wAER8vipnHyb8nQ/rDeqf4VsmEyASxANCQyjsBKUaVg5r9qIbh4MBUUu8PSiF5LEIDfdfs4Zly21e3C0YwWDdETAdYqJY7Wx1fvsQdxf+59VKhWXBI81RRXu44gsfhhS4joL/tXfGOnZD2/U9rA8L3tKIl0VL1FwM8v3r8Z2g/I0egmMuhpQum4b/m5uW/1qr+5VvFz7zkT1ZciT4ybaB1xMq2bzQfdBfvY/mesmfmwDoW7MaYMxCGuU0afgCSLP4J5CvoUP9ZXgbIqUJHZOqDm0+goovPSYSCjEhSp4oBK4xrOOsiNHsUZP3Yij8jge/0eW7mKqifoH7LKQu3I+PaKAmV34zRRloAsgEfmBcYlnQBEcv2A68/GbSWJfzTDuTF0lsSVNTc+GbCwKohAhDJQuzDqBwuPv1zBJi80nXWCNE8s8hRNL5dxn+433euKd2MyrCojzK2fIm7TEariZaRH7ZSNdnwUxC012rvxGmFaLy845O1cqNC0yuP4QyskidmiPFyqUi7LYI5WO24=
+        skinName: RuRuTTar
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTc5MDgxMSwKICAicHJvZmlsZUlkIiA6ICJhY2IwYTgzOGRkZWQ0NTNmOGRiODU3NWM0OTk1YjkyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdVJ1VFRhciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZjkzNGZjNzYyOWY0OTVhMjM0MDU5MDUyMjBiMzE4ZDU4ODc3ZmQ2ZWExNThhZWVlMjVkNDQ4YTY3ZDZiM2QzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      spawned: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      location:
+        bodyYaw: -55.02882
+        world: world_draft_city
+        x: '-169.5'
+        y: '73.0'
+        z: '506.5'
+        yaw: '-55.0288'
+        pitch: '0.0'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: acb0a838-dded-453f-8db8-575c4995b92f
+      cached-skin-uuid-name: ruruttar
+  '69':
+    name: 萨尼
+    uuid: 4165f88d-4d02-4151-b492-79ae11fcc684
+    metadata:
+      cached-skin-uuid: 99d5e0bc-13fa-4b72-b1c7-56055e744f91
+      cached-skin-uuid-name: giaburst
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 萨尼
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Jn0tskv55sWbWsmrNgvB3T1bvURdHTVQKiaAdMyDNHqmYmSgiE2mrIxOPOBZN4jW24LFVsszBSPKrL47OjwlqWLUds7GH20yB6GrAWW5m+DdDLP7XWpmraaH6h10Yps/tE4dbPfFS9Ke0CoVkdmtjuJW4RkDvXkqQlenS2O16SlntmLeGKvtMxHV+QiOi7cz7QTU7W/e8vRevavutq/yDvPLgUuxIXUM4FopdR09wR2+Q2KrRtegOAj3q3MfJnYW8PIDK2AcJxXAQ3TP+hziB3H9PUPaLVsRyZykGTXEXPzS+2k3X00U+npJn9RvKoGToZv2x8coLQSGXSts3z/Be3DAcu0HZvF5BhrdvHNUPJQ0TONXeB+E4CcFcSRiTrhsKBKfwFfATHw9x/BROVt1OLKYC/2gcm4MdMZdKh0dWV9tWmqGvQ61vFki+mgabBZoDM3rVyl3/IuqavpM9Q3wFNE8tx8hJFiI6SvvDv4j46O/xI2Mb0RJvCWE2qa2/gDpd6FTTB7QLIbTYJuomcnF90ErC/m7daZGVFA9eVyib8/HLKhMbig55QvQQtSoNdW2FXVPT1Op3N8Zajh/Ga22HJocM++kEhkuB5zPSXk0VVXPl95LC2RhalJC/Fn8yfdBa6kvEuplQnlrsPey6p5RIn/Gt8abU66UoVZIZ0s+IrY=
+        skinName: giaburst
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwODAyODY1Njk5NiwKICAicHJvZmlsZUlkIiA6ICI5OWQ1ZTBiYzEzZmE0YjcyYjFjNzU2MDU1ZTc0NGY5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHSWFCdVJzVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YjE0N2E0OTA0YzJiYjkyYzM1ZjRlYmExZjcyNDA3YjZmNzNkNmI2YWFjYTY0MDA0NzQ1MzNjZjA2ZTY1NTgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlhNzY1Mzc2NDc5ODlmOWEwYjZkMDAxZTMyMGRhYzU5MWMzNTllOWU2MWEzMWY0Y2UxMWM4OGYyMDdmMGFkNCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: 154.57178
+        world: world_draft_city
+        x: '-29.5'
+        y: '94.0'
+        z: '760.5'
+        yaw: '174.5718'
+        pitch: '-8.0445'
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      lookclose:
+        range: '8.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '70':
+    name: 吃饭
+    uuid: a4f2b066-535f-4a51-981b-4bffe4beb93d
+    metadata:
+      cached-skin-uuid: 01fccf9e-a87c-4949-90ab-cc77b5a69c04
+      cached-skin-uuid-name: azemt
+    traits:
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: igWfFdJmfSY+3XatZZTifMOhS/msXj4icJqCMUE4t4KCvBUBngHrgTk15ta+bVQeGDsbuKA3w1jKCehkdBvOPmzYJDY8Db0tR3TkBfKjvqpE7cIdD1PaXaGTzfG5/qBpsufzYgkTeehgIWGwidxxpUgo8N5cUN9RZytlaAzXEwcbf6j7H6QIIFIYsFd5O9uFtezNFrOMtPy7RHs9H5X65AvNUnOanG3WsIE8bWiIhdOr7rjme2BAlb/Oubf2auCofdraPro0mNJrf9DNnfufSger1TZbsBVwcdFYGfR2Jcb506zXVtd8qggPuqvrzTSD2Msxw1YsUuowwEGngJu5U7fKOfAu9AMVMq1FICzbxcQ5X6KoiEdQ29P0N0UWucJTnjxIB0KkC8p0ENFKFANeZWt0KZQXRQuiK2E9fge+FuGv3Xxe/YlpqLgIO8Y2p0PtnP+LOLlRvLAx7jt1MlR9n2KTGVs2j88KsmMq6iha2K50Jj/TJDI/azZBIWpGfv4WzyiYAiZNnwwG0kVPE60l/OP9k08FlldIsgZC+0Q1eZqpbmwHbTpFw0krT8qhgQgu1e7F6+859r2a3ARuupih8isGVpfd//S7crBhJN+zojxUEcQn0qFqB1ZXOSABEC7EsbSMmRPJ6SXYy0dqu0gLd2YMSBSsX5IdGuTLRj7b8AE=
+        skinName: azemt
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDI5MDMxNzIwMiwKICAicHJvZmlsZUlkIiA6ICIwMWZjY2Y5ZWE4N2M0OTQ5OTBhYmNjNzdiNWE2OWMwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBemVtdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTYwYTRkZWI0OWNiZmM2NDcxYTY0ZmM0NDE5NzMzMThhZDRhNDY5OGMxMjE5NTk3N2VhZGE1ODExZjU1NDNmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: -87.98586
+        world: world_draft_city
+        x: '368.5'
+        y: '125.0'
+        z: '466.5'
+        yaw: '-87.9859'
+        pitch: '-4.8748'
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      lookclose:
+        range: '8.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: talk 吃饭
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+    traitnames: mounttrait,location,scoreboardtrait,commandtrait,poses,spawned,inventory,type,lookclose,rotationtrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
