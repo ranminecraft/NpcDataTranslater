@@ -17,7 +17,7 @@ import java.util.UUID;
 
 public class Main extends JavaPlugin implements Listener {
 
-    private static final String PLUGIN = "BukkitPlugin";
+    private static final String PLUGIN = "NpcDataTranslater";
 
     @Getter
     private final String PREFIX = color("&b" + PLUGIN + ">>>");
