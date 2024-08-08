@@ -85,7 +85,7 @@ public class Main extends JavaPlugin implements Listener {
         if (!dataFile.exists()) saveResource("data.yml", false);
         dataYml = YamlConfiguration.loadConfiguration(dataFile);
 
-        for (int i = 0; i <= 100; i++) {
+        for (int i = 0; i <= dataYml.getInt("last-created-npc-id"); i++) {
             String name = dataYml.getString("npc." + i + ".name", "");
             if (!name.isEmpty()) {
                 String cmd = dataYml.getString("npc." + i + ".traits.commandtrait.commands.0.command", "");
