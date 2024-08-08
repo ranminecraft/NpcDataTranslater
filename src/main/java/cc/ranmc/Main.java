@@ -90,7 +90,7 @@ public class Main extends JavaPlugin implements Listener {
             if (!name.isEmpty()) {
                 String cmd = dataYml.getString("npc." + i + ".traits.commandtrait.commands.0.command", "");
                 name = cmd.contains("talk ") ? cmd.split(" ")[1] : name;
-                getConfig().set("npcs." + name + ".displayName", name);
+                getConfig().set("npcs." + name + ".displayName", name.split("copy")[0]);
                 String type = dataYml.getString("npc." + i + ".traits.type", "PLAYER");
                 getConfig().set("npcs." + name + ".type", type);
                 getConfig().set("npcs." + name + ".location.world",
@@ -113,7 +113,7 @@ public class Main extends JavaPlugin implements Listener {
                 getConfig().set("npcs." + name + ".glowing", false);
                 getConfig().set("npcs." + name + ".glowingColor", "white");
                 getConfig().set("npcs." + name + ".turnToPlayer",
-                        dataYml.getBoolean("npc." + i + ".traits.lookclose.enabled"));
+                        dataYml.getBoolean("npc." + i + ".traits.lookclose.enabled", true));
                 getConfig().set("npcs." + name + ".message", "");
                 if (type.equals("PLAYER")) {
                     getConfig().set("npcs." + name + ".skin.identifier", "00000000-0000-0000-0000-000000000000");
