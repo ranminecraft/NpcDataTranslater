@@ -83,6 +83,8 @@ public class Main extends JavaPlugin implements Listener {
         if (!dataFile.exists()) saveResource("data.yml", false);
         dataYml = YamlConfiguration.loadConfiguration(dataFile);
 
+        StringBuilder builder = new StringBuilder();
+
         for (int i = 0; i <= dataYml.getInt("last-created-npc-id"); i++) {
             String name = dataYml.getString("npc." + i + ".name", "");
             if (!name.isEmpty()) {
@@ -119,7 +121,7 @@ public class Main extends JavaPlugin implements Listener {
                     getConfig().set("npcs." + name + ".skin.identifier",
                             dataYml.getString("npc." + i + ".traits.skintrait.skinName", ""));
                     getConfig().set("npcs." + name + ".skin.variant", "AUTO");*/
-                    System.out.println("npc skin " + name + " " + skinName);
+                    builder.append("/npc skin ").append(name).append(" ").append(skinName).append("\n");
                 }
                 getConfig().set("npcs." + name + ".actions.ANY_CLICK.1.action", "player_command");
                 getConfig().set("npcs." + name + ".actions.ANY_CLICK.1.value", cmd);
@@ -133,7 +135,7 @@ public class Main extends JavaPlugin implements Listener {
             }
             saveConfig();
         }
-
+        Bukkit.broadcastMessage(builder.toString());
     }
 
     /**
