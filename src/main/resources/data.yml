@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 126
+last-created-npc-id: 137
 npc:
   '42':
     name: 小安
@@ -12,6 +12,7 @@ npc:
             command: talk 小安
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -27,13 +28,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 104.79048
+        bodyYaw: 50.51706
         world: world_draft_city
         x: -118.5
         y: 80.0
         z: 441.5
-        yaw: 124.7905
-        pitch: -5.3853
+        yaw: 50.5171
+        pitch: -10.0176
       type: PLAYER
       lookclose:
         range: 5.0
@@ -43,7 +44,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -61,6 +65,7 @@ npc:
             command: talk 光圈
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -76,12 +81,12 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -118.30272
+        bodyYaw: -81.05784
         world: world_draft_city
         x: -188.5
         y: 80.0
         z: 453.5
-        yaw: -118.3027
+        yaw: -81.0578
         pitch: 0.0
       type: PLAYER
       lookclose:
@@ -92,7 +97,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -110,6 +118,7 @@ npc:
             command: talk 阿然
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -119,19 +128,19 @@ npc:
             experienceCost: -1
       skintrait:
         signature: FkgjIEXg+Mo0PIxUciGbFvztrGqFHKE4sZphlmUbR4l91Ddl84f97rKpFROBnamZ/Jz4tmN8C7ljexq7DgYpG+zy2cE5GmH0DZhfXXmPZyXI169hEPTiDhB7xHaBCFiMqEUHikUoWZ2Ji+HrCwhjTOP0WwZ3LZz4fNDyFkDZNUt5djFNdtWRzvC4fWFAY44FXvKDkCRnvreBmWfRU73NV+ZCTFXdgDG9f+yn3c+VH6vOCf42VnsDTbXSqPMmKdh3EAI2r4wHqV2Q7bDD5oioObj02gU/0QOQcF0o6ZUC0jcRbeh4aQld40jJfBKqZjKAHGZ2N7+txDDhSG0T9YQeUgUPcp5LaNyS3BgyoJl7klGmoBWTQIBodnSEKVpRuSznRsJRp+QGKaZgJXbJlWP71vdqkPAGo9CFhCol3sWP6MzrtfkG2IBon1bLGK+UIzp38/4lYfy8Q+AMsvj0BIswOrdLTtsJHsFF7WYrJjjVnm59fTjUrykt4EJBIg9f66UdxCn7/41i07ZInCTayuL4B9fSueKETFKSqychzq2iby1n190uDQp4D/fvUfkY+1ArA3u2fZK9cDB0D36/feiXgtEEwaKPXevrmW8syJqsYq3E25GlLEzWsmuccVO9WmfzlUiaa+oaDXr9ihwq5QkdI0i9q6YPH6PWXIu2SiQQyxA=
-        skinName: ranica
+        skinName: Ranica
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTcxNzM1OCwKICAicHJvZmlsZUlkIiA6ICJmZjIwZjY5ZTVmNmM0NzZjOGEyMTVkMjg2MDg1OTZhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW5pY2EiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM0YTI3ZmM3NWQ0ODY4YmNjZjlmZWY0OGIyYzA5ZDFlOTNmNmJhYzQ0YzMyYzBmZjQ2YjViN2MwN2FjODIxZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FmZDU1M2IzOTM1OGEyNGVkZmUzYjhhOWE5MzlmYTVmYTRmYWE0ZDlhOWMzZDZhZjhlYWZiMzc3ZmEwNWMyYmIiCiAgICB9CiAgfQp9
       spawned: true
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -28.687222
+        bodyYaw: -10.301231
         world: world_draft_city
         x: -154.5
         y: 80.0
         z: 446.5
-        yaw: -28.6872
-        pitch: -7.7314
+        yaw: -10.3012
+        pitch: 0.6513
       type: PLAYER
       lookclose:
         range: 5.0
@@ -145,11 +154,16 @@ npc:
         hand:
           type_key: cornflower
           amount: 1
+          type_namespace: minecraft
+          type: cornflower
       inventory:
         '0':
-          type_key: cornflower
+          type: cornflower
           amount: 1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -167,6 +181,7 @@ npc:
             command: talk 团子
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -182,13 +197,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 24.084854
+        bodyYaw: 21.798729
         world: world_draft_city
         x: -151.5
         y: 80.0
         z: 430.5
-        yaw: 24.0849
-        pitch: -9.1481
+        yaw: 21.7987
+        pitch: 0.0
       type: PLAYER
       lookclose:
         range: 5.0
@@ -198,7 +213,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -220,6 +238,7 @@ npc:
             command: talk 团子copy1
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -235,13 +254,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -136.79099
+        bodyYaw: 147.61505
         world: world_draft_city
-        x: -209.5
-        y: 63.0
-        z: 391.5
-        yaw: -136.791
-        pitch: 2.887
+        x: -199.5
+        y: 64.4
+        z: 381.5
+        yaw: 147.6151
+        pitch: 36.2686
       type: PLAYER
       lookclose:
         range: 5.0
@@ -255,58 +274,26 @@ npc:
         hand:
           type_key: fishing_rod
           amount: 1
+          type_namespace: minecraft
+          type: fishing_rod
       inventory:
         '0':
-          type_key: fishing_rod
+          type: fishing_rod
           amount: 1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false
-  '47':
-    metadata:
-      flyable: true
-    name: 签到
-    uuid: 89a0de33-3a90-4fd0-8e81-926b08e0b50b
-    traits:
-      gravity:
-        enabled: true
-      spawned: true
-      owner:
-        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
-      location:
-        bodyYaw: -142.39949
-        world: world_draft_city
-        x: -156.5
-        y: 81.2
-        z: 453.5
-        yaw: -142.3995
-        pitch: 0.0
-      type: ALLAY
-      allaytrait: {}
-      lookclose:
-        range: 5.0
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-      commandtrait:
-        commands:
-          '0':
-            command: talk 签到
-            hand: BOTH
-            player: true
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-    traitnames: inventory,equipment,allaytrait,lookclose,rotationtrait,gravity,type,spawned,commandtrait,scoreboardtrait,owner,location,mounttrait
+      mounttrait:
+        mountedon: fb4e082e-8291-4f07-81b3-1c9a9c7211d4
+      sittrait:
+        sittingAt:
+          world: world_draft_city
+          x: -199.5
+          y: 65.0
+          z: 381.5
+          yaw: -81.9375
+          pitch: 12.4128
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,inventory,type,sittrait,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -321,6 +308,7 @@ npc:
             command: talk 小灰
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -336,12 +324,12 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 32.75831
+        bodyYaw: 139.34186
         world: world_draft_city
         x: -13.5
         y: 111.0
         z: 758.5
-        yaw: 32.7583
+        yaw: 139.3419
         pitch: 0.0
       type: CAT
       lookclose:
@@ -352,7 +340,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: cattrait,commandtrait,scoreboardtrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,cattrait,commandtrait,mounttrait,lookclose,location,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -367,6 +358,7 @@ npc:
             command: talk 团子copy2
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -378,24 +370,26 @@ npc:
         hand:
           type_key: tropical_fish_bucket
           amount: 1
+          type_namespace: minecraft
+          type: tropical_fish_bucket
       skintrait:
         signature: EuJepg1y6LpbU9H1pkNZltxbfeRe6Ye4D1kRLnzcBwL/IisKXQBO/7oEKBAfxPy30DqDy61gjqzxdoFtAW5bPJqLU/60O/2W0xB/EazBZF2U8FeUTzT0YGc/0Bt5VpH/KzvGSDIU0rAY79HtF1NR/fSY4pHBogqU6PpotCWUCYCVgD+reRTntHv27fwk4IPStnDy+rtgsmKst5iPcM5VGYBFtXvTntVAOT7uZEA2htBi60INgUtV2bjOLuvX2VQoxfA1xOsaOr8AotkoQJrACTIQST/DgwOVGV0dJW5GRIyOfpbziTuDlCKqg8M3a/CKKfWQcZHGCH/4o/JDMOhopjzU4NHm/zOpvhyIilXaKQkursrGT9JP0f2QEZyOgwrH8wztjEhyuyyhXmrlXUlJec8j0i3A+g+PSTyQoqpantjKAkS4/52gkwRCxDSSPK8dmkw8Id8UttFc4+9Ky6DzPDwTu4KSS5VydSDUx/EwDE+lso23WHjCN9uKv91kVyC7cb5vKYfBdwQOvxQT+fBUvmpy8gnalyAHxEwuSzI+wrRKr3gg05SBM+rVaPsGgKY6hjG35cC1OKet0lZBqPAJZKnW0m1kpGXP1V7WiOLcdmSkngvXcjtNrHWmLqQs10CuprLlZs77ceWb10H/KKC87zUNpGCJzYerzuRSvuEkDog=
         skinName: tuanzisama
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDA5MTc2MDAyOSwKICAicHJvZmlsZUlkIiA6ICJiMzVhM2M1MTAwNTY0YTRkOGRiMmVjMzdkZjFiNTMyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dWFuemlzYW1hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ1NjU1YjgxNzJlZjk1Y2FiODQ5MDg5NjUxY2Y1NzZhY2VhYTEwYjIxMTE0NGRkYzQ3ZTcwMDBjN2RhNjhjOGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       inventory:
         '0':
-          type_key: tropical_fish_bucket
+          type: tropical_fish_bucket
           amount: 1
       spawned: true
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -96.80877
+        bodyYaw: -80.52599
         world: world_draft_city
         x: 170.5
         y: 66.0
         z: 451.5
-        yaw: -96.8088
+        yaw: -80.526
         pitch: 0.0
       type: PLAYER
       lookclose:
@@ -409,7 +403,10 @@ npc:
       mounttrait:
         mountedon: e6e19a0e-6ac9-4488-bbd8-676d2e025249
       playerfilter: {}
-    traitnames: inventory,skintrait,playerfilter,equipment,lookclose,rotationtrait,type,spawned,commandtrait,scoreboardtrait,sittrait,owner,location,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,inventory,type,sittrait,location,playerfilter
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -427,6 +424,7 @@ npc:
             command: talk 月见
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -442,13 +440,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -90.88542
+        bodyYaw: 26.1978
         world: world_draft_city
         x: -115.5
         y: 81.0
         z: 622.5
-        yaw: -90.8854
-        pitch: -8.0658
+        yaw: 26.1978
+        pitch: 3.4849
       type: PLAYER
       lookclose:
         range: 5.0
@@ -458,7 +456,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -476,6 +477,7 @@ npc:
             command: talk 照桃
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -491,13 +493,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 66.72386
+        bodyYaw: -15.22509
         world: world_draft_city
-        x: -151.5
-        y: 81.0
-        z: 694.5
-        yaw: 66.7239
-        pitch: -6.5555
+        x: -84.5
+        y: 80.0
+        z: 470.5
+        yaw: -15.2251
+        pitch: -6.2145
       type: PLAYER
       lookclose:
         range: 5.0
@@ -507,7 +509,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -525,6 +530,7 @@ npc:
             command: talk 陆捌肆
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -540,13 +546,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 134.57141
+        bodyYaw: 129.25482
         world: world_draft_city
         x: -234.5
         y: 91.0
         z: 501.5
-        yaw: 154.5714
-        pitch: -4.2792
+        yaw: 149.2548
+        pitch: -10.7002
       type: PLAYER
       lookclose:
         range: 5.0
@@ -556,7 +562,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -574,6 +583,7 @@ npc:
             command: talk 白酱
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -589,13 +599,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -48.96549
+        bodyYaw: -95.707924
         world: world_draft_city
         x: -241.5
         y: 124.0
         z: 448.5
-        yaw: -48.9655
-        pitch: -7.9848
+        yaw: -95.7079
+        pitch: 0.0
       type: PLAYER
       lookclose:
         range: 5.0
@@ -605,7 +615,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -623,6 +636,7 @@ npc:
             command: talk 潘潘
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -638,13 +652,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -158.28581
+        bodyYaw: -31.938084
         world: world_draft_city
         x: -11.5
         y: 80.0
         z: 523.5
-        yaw: -158.2858
-        pitch: 0.0
+        yaw: -31.9381
+        pitch: -2.2509
       type: PLAYER
       lookclose:
         range: 5.0
@@ -654,7 +668,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -672,6 +689,7 @@ npc:
             command: talk 纯爱
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -687,13 +705,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -75.31273
+        bodyYaw: -23.334038
         world: world_draft_city
         x: -139.5
         y: 81.5
         z: 369.5
-        yaw: -75.3127
-        pitch: 28.6083
+        yaw: -23.334
+        pitch: -0.5158
       type: PLAYER
       lookclose:
         range: 5.0
@@ -703,7 +721,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -721,6 +742,7 @@ npc:
             command: talk 蜻蜓
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -736,13 +758,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 79.45619
+        bodyYaw: 60.775604
         world: world_draft_city
         x: -195.5
         y: 82.0
         z: 497.5
-        yaw: 79.4562
-        pitch: 1.8735
+        yaw: 60.7756
+        pitch: 4.3749
       type: PLAYER
       lookclose:
         range: 5.0
@@ -752,7 +774,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -768,12 +793,12 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -32.814297
+        bodyYaw: 67.17186
         world: world_draft_city
         x: -94.5
         y: 83.0
         z: 378.5
-        yaw: -32.8143
+        yaw: 67.1719
         pitch: 0.0
       type: ILLUSIONER
       lookclose:
@@ -790,6 +815,7 @@ npc:
             command: talk 祭品
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -797,7 +823,10 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,scoreboardtrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,mounttrait,lookclose,location,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -812,6 +841,7 @@ npc:
             command: talk 仙奈
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -827,13 +857,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -57.86219
+        bodyYaw: -1.6044922
         world: world_draft_city
         x: -96.5
         y: 83.0
         z: 390.5
-        yaw: -57.8622
-        pitch: -3.0336
+        yaw: -1.6045
+        pitch: 0.0
       type: PLAYER
       lookclose:
         range: 5.0
@@ -843,7 +873,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -861,6 +894,7 @@ npc:
             command: talk 和泉
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -876,13 +910,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -74.808014
+        bodyYaw: -83.28759
         world: world_draft_city
         x: -189.5
         y: 80.0
         z: 433.5
-        yaw: -74.808
-        pitch: -11.225
+        yaw: -83.2876
+        pitch: -6.8377
       type: PLAYER
       lookclose:
         range: 5.0
@@ -892,7 +926,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -910,6 +947,7 @@ npc:
             command: talk 水中的亡妻
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -921,13 +959,15 @@ npc:
         hand:
           type_key: poppy
           amount: 1
+          type_namespace: minecraft
+          type: poppy
       skintrait:
         signature: Arixmj66FP6yy76KctWuzawiDDVTsFIuMnwoWNRL4PmUDf0a+TFJS0WOUZQUDG/gVU3k+1JCqdTKV3KgU4OQNGKvlNwUPP6AuaZQcj2cbWbP/TNKHfjpjdteLg9frtS4fyIaqrbL9upCVO9zAdOvd2pa/HalPUqMjE6BY5iI3iIknuy8KYTo/3i3UE/J2zR0SB8F/Al1nzLbZKACSTwRAIJ1e4s31CGMTw2IRSnDji4/DkaqypOQTWXWkjdq67/tF+0xyu8KxGNs4yEmeBFucUSBou3ZveZVUKMglW/6dK60s66vM0OnsBWiqyciYXZtsFtnB8HinFzAIOTxTT0KmRc7I/3eksg9lHOb9zgx2yrbL/khYFcyxMErPU0E33lZVjx+pS9oZZRF/MTy+omVSYkGd/UIOZetb+b5l2I+n7utZQ0l69LAXnBMHuKMN+ra0/rPYDB2B00FbhCGVHadU8OYlEVKVTXHY0c0mmq6hAKiEgUKXQ46lNFKAZGcsE427GbaLZCY++voU0Jk/OC1hhgBm66xEoGMML/VhlfRXMdm8/YfBOPgPogCN52dGabN2TLGyScbcEhS/AT0JBx+vrmjdS3+tb+uKZ6dbcXmBbRdXUKJnznxE5wnUN8H3E4DFLILYPyf4Ip5IefDdICzwLY4eLiV1L9x5GTuRD/yZsk=
         skinName: cchlowe
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxNTIwMzgxMjkyOSwKICAicHJvZmlsZUlkIiA6ICI1MDRkZjUxYzU4MmY0NmY2ODEwMDUyNjJjYjM2NGRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjY2hsb3dlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNmNjIzZDhmYzJmNWM3ZGIwYTA2MzFmNzRjZDE0NTY0YzNlNjljYTM1Zjc1NjVhZTRkMjAyMzIwOWU3MTYxNGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       inventory:
         '0':
-          type_key: poppy
+          type: poppy
           amount: 1
       spawned: true
       owner:
@@ -951,7 +991,10 @@ npc:
           '0': 0.0
           '1': 360.0
       skinlayers: {}
-    traitnames: inventory,skintrait,equipment,lookclose,rotationtrait,type,spawned,skinlayers,commandtrait,scoreboardtrait,owner,location,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,skinlayers,mounttrait,skintrait,lookclose,equipment,inventory,type,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -969,6 +1012,7 @@ npc:
             command: talk 伍六七
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -984,13 +1028,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 19.30877
+        bodyYaw: 111.64703
         world: world_draft_city
         x: -165.5
         y: 111.0
         z: 509.5
-        yaw: 19.3088
-        pitch: -57.1875
+        yaw: 96.3099
+        pitch: 0.0
       type: PLAYER
       lookclose:
         range: 5.0
@@ -1000,7 +1044,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1018,6 +1065,7 @@ npc:
             command: talk 若璃
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1033,13 +1081,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 65.26982
+        bodyYaw: -167.92339
         world: world_draft_city
         x: 29.5
         y: 79.0
         z: 455.5
-        yaw: 65.2698
-        pitch: -39.9189
+        yaw: 172.0766
+        pitch: -35.3663
       type: PLAYER
       lookclose:
         range: 5.0
@@ -1049,7 +1097,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1070,6 +1121,7 @@ npc:
             command: talk 给若璃的礼物
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1098,7 +1150,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: commandtrait,scoreboardtrait,owner,lookclose,shulkertrait,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,mounttrait,lookclose,location,shulkertrait,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1115,6 +1170,7 @@ npc:
             command: talk 春天
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1130,13 +1186,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: 73.81079
+        bodyYaw: -178.95589
         world: world_draft_city
         x: -130.5
         y: 75.0
         z: 541.5
-        yaw: 73.8108
-        pitch: 17.2124
+        yaw: -178.9559
+        pitch: 0.0
       type: PLAYER
       lookclose:
         range: 5.0
@@ -1146,7 +1202,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1164,6 +1223,7 @@ npc:
             command: talk 露露缇雅
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1179,13 +1239,13 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -166.68343
+        bodyYaw: 89.74046
         world: world_draft_city
         x: -169.5
         y: 73.0
         z: 506.5
-        yaw: -166.6834
-        pitch: -5.7218
+        yaw: 109.717
+        pitch: -8.7667
       type: PLAYER
       lookclose:
         range: 5.0
@@ -1195,7 +1255,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1216,6 +1279,7 @@ npc:
             command: talk 萨尼
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1230,13 +1294,13 @@ npc:
         skinName: giaburst
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxOTk5MDc2NTEwNSwKICAicHJvZmlsZUlkIiA6ICI5OWQ1ZTBiYzEzZmE0YjcyYjFjNzU2MDU1ZTc0NGY5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHSWFCdVJzVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNTUzN2E1NmQ2NDk3YmU0ZjVhYzA5NDJhMDQ1ZjQ4YWM2ZjA2NTMwNzdlYTRiODM0NWU2NDM2ZDIxN2IyZjZiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0=
       location:
-        bodyYaw: -11.791336
+        bodyYaw: -13.049492
         world: world_draft_city
         x: -29.5
         y: 94.0
         z: 760.5
-        yaw: -11.7913
-        pitch: -3.0647
+        yaw: -13.0495
+        pitch: 4.5456
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       lookclose:
@@ -1249,13 +1313,18 @@ npc:
           '1': 360.0
       inventory:
         '0':
-          type_key: writable_book
+          type: writable_book
           amount: 1
       equipment:
         hand:
           type_key: writable_book
           amount: 1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
+          type_namespace: minecraft
+          type: writable_book
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1274,13 +1343,13 @@ npc:
         skinName: azemt
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMDI5MDMxNzIwMiwKICAicHJvZmlsZUlkIiA6ICIwMWZjY2Y5ZWE4N2M0OTQ5OTBhYmNjNzdiNWE2OWMwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBemVtdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTYwYTRkZWI0OWNiZmM2NDcxYTY0ZmM0NDE5NzMzMThhZDRhNDY5OGMxMjE5NTk3N2VhZGE1ODExZjU1NDNmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       location:
-        bodyYaw: 118.275085
+        bodyYaw: 118.61397
         world: world_draft_city
         x: 49.5
         y: 81.0
         z: 527.5
-        yaw: 100.3285
-        pitch: -5.1492
+        yaw: 98.614
+        pitch: -4.5809
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       lookclose:
@@ -1297,6 +1366,7 @@ npc:
             command: talk 吃饭
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1306,13 +1376,18 @@ npc:
             experienceCost: -1
       inventory:
         '0':
-          type_key: bowl
+          type: bowl
           amount: 1
       equipment:
         hand:
           type_key: bowl
           amount: 1
-    traitnames: inventory,skintrait,equipment,lookclose,rotationtrait,type,spawned,poses,commandtrait,scoreboardtrait,owner,location,mounttrait
+          type_namespace: minecraft
+          type: bowl
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,inventory,type,location,poses
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1326,13 +1401,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 46.66748
+        bodyYaw: -81.61208
         world: world_draft_city
         x: 53.5
         y: 81.0
         z: 665.5
-        yaw: 46.6675
-        pitch: -4.8211
+        yaw: -81.6121
+        pitch: 5.6155
       lookclose:
         range: 8.0
         randomPitchRange:
@@ -1354,6 +1429,7 @@ npc:
             command: talk 德卡
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1363,13 +1439,18 @@ npc:
             experienceCost: -1
       inventory:
         '0':
-          type_key: comparator
+          type: comparator
           amount: 1
       equipment:
         hand:
           type_key: comparator
           amount: 1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
+          type_namespace: minecraft
+          type: comparator
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1383,13 +1464,15 @@ npc:
     traits:
       inventory:
         '0':
-          type_key: map
+          type: map
           amount: 1
       type: PLAYER
       equipment:
         hand:
           type_key: map
           amount: 1
+          type_namespace: minecraft
+          type: map
       lookclose:
         range: 8.0
         randomPitchRange:
@@ -1399,13 +1482,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 136.27338
+        bodyYaw: -106.379425
         world: world_draft_city
         x: 43.5
         y: 81.0
         z: 675.5
-        yaw: 130.9362
-        pitch: 0.0
+        yaw: -106.3794
+        pitch: -2.4174
       skintrait:
         signature: psWz177sG10JIDEXNf3MwjQtwB5w3jzm3FSo5ybDNZcsc2r3vg6qTdCNIumUS5Ctfy83/ExxTjgDrz+ASGmV345283nlSWT39QVtLSfiYMPn8I1RZ3LrTQGIDpbHoeK3KhAhtG9QSR07hp5V8lSAfXQ72hOa5UIe3YtEObkWGmDAopSZHsB1LKTy5cBUPPAwGbUyf0audDfhfrim5ZeVW1uxxt1tAnSAy+yWJARbg3YwZIIEceOuPY1tG6nPMxQQN+L+EIv8NcdhM8QiziE4rnsyEbRTKb3FVdju7/RsO2nIfDE6Y3Kh/vXfXGmqf3V6aAUaxIlBqe/3EJ14GVTTSAMBfZ0uznNzOvX2B9dkzwQ/Gp//8ffBOrYIzcUmjs5MuV4miusLJYeA/S7RaBYSnlIQHImfmdzvTwZewmLI8IakHTVCR/MAwTddgGQvyR1SN/lzJB+IBrVCFwzdLWQFw+n/roJtjQjdjIas5rd/q7yUwBotZ/7V3viDf7snBPlAMqgoOI8NjpPFiSzlKcb2kqxUdQUtG1usYhnRqyuWskkpP0M9FrDQYAsme8STbxDect8keOj2kQvhkcJEtEn120kVBZwnYIEo6me7WDtRZyscxKxkcXv4lD5FbclTwBjqdizYzVxy1axOaE87KasKumm3K/lli4mUmSONLAPILpM=
         skinName: AESthetic_mc
@@ -1416,6 +1499,7 @@ npc:
             command: talk 小心
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1426,7 +1510,10 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       spawned: true
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1448,12 +1535,12 @@ npc:
           '1': 360.0
       type: COD
       location:
-        bodyYaw: 147.16559
+        bodyYaw: 289.56937
         world: world_draft_city
-        x: -32.6783
-        y: 79.9758
-        z: 520.5977
-        yaw: 157.1656
+        x: -19.9611
+        y: 78.9839
+        z: 526.6047
+        yaw: 289.5694
         pitch: 0.0
       spawned: true
       commandtrait:
@@ -1462,6 +1549,7 @@ npc:
             command: talk 可疑的小鱼
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1470,7 +1558,10 @@ npc:
             cost: -1.0
             experienceCost: -1
       gravity: {}
-    traitnames: commandtrait,scoreboardtrait,owner,horsemodifiers,lookclose,rotationtrait,location,gravity,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,horsemodifiers,gravity,mounttrait,lookclose,location,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1501,13 +1592,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxNDEwMjc5OTI4MCwKICAicHJvZmlsZUlkIiA6ICJiMzNhYTAzODVmZGE0NDY2OTg4MTU1ZDljMzU1MTIzYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaWtvX1lBTkciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFjZTRiNzBlYzE2YTM0OTY3ZTMxYmRkZGYzZWIwYTQ3NGY5ODg2Njc1ZTU2NDc4MDllNjczNjY4MjM1NDkzZCIKICAgIH0KICB9Cn0=
       type: PLAYER
       location:
-        bodyYaw: 9.757484
+        bodyYaw: 3.8850632
         world: world_draft_city
         x: -38.5
         y: 82.0
         z: 529.5
-        yaw: 9.7575
-        pitch: -5.1681
+        yaw: 3.8851
+        pitch: 3.2403
       spawned: true
       commandtrait:
         commands:
@@ -1515,6 +1606,7 @@ npc:
             command: talk 酒歌
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1522,7 +1614,10 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1550,13 +1645,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxNDExMDA5ODg4OSwKICAicHJvZmlsZUlkIiA6ICI3ZDg2NWQ1YmFmNDM0MTVmOWI1Yjg5MTJkMDU4YzViMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdW9YaTAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNzgxYTc3ODMxZTBiOGY1OGE4MWUzNzMwNGJmMjc0N2ZiMGJhMWYyMWMxYjZkYzNiZjFmZGRkYTY1NjliNmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       type: PLAYER
       location:
-        bodyYaw: -113.42175
+        bodyYaw: -15.215736
         world: world_draft_city
-        x: -73.5
-        y: 80.0
-        z: 498.5
-        yaw: -113.4218
-        pitch: -6.417
+        x: 260.5
+        y: 128.0
+        z: 458.5
+        yaw: -15.2157
+        pitch: -10.4694
       spawned: true
       commandtrait:
         commands:
@@ -1564,6 +1659,7 @@ npc:
             command: talk 姬律
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1571,7 +1667,10 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1592,28 +1691,30 @@ npc:
           '0': 0.0
           '1': 360.0
       skintrait:
-        signature: rB6HssDn6J/QEvRW2ZrpSv+MeMEIo0uHRhlHT+kZ6Z1Pvu0XkfBfIg2VsIGNnus8mjsMdpPG+cpVBAyNUoOFiVBmUxki0Tsv3JOJT6XemRflEq12Sy++k7SviWzRy1YhAxaCih4t3K2fmgDkuH6/dmFwRjGReF68O+NG43d0/BN3qVOqX6GqR+P17LMF1mR2pbcGIidzBS/SV8Zc4b+PMrgend3N1ZojtgDj6IzH0jHlwJt1HURAFAN95eTmh++epu/AlykVbzT9qNECUVfWJfi5M2PQeAhIpaNrokO06Ww6185sJwCLi7p2Q8kU/7HkAyFwYUjWXdF+vSlQCRS69aVGrs83TPj4Vc6PQyiUKZVuPRmNH8m4NsAbZg0s2jRn9wpjCIZmEpgGauTHduGYOF8xiSdv1Tz327C0MRxit7fhAJCVgex+nSdGONBhD5oe5XWZewBsuEEkOcJOWRPdtjvxqmBPI9Qpz4G+npXhH8FO+a3I9QgyK8NKHVb7gH72D3IdEfReUjGn8myuak+W220+sjhytsV9KDpFPp4asRj92gyIi6N12edGlsgE2kqBj3FP+zAE8HrlVKd+rdPbPiQcleSNxsnhuCBfGXDMugjtlZVum7GBpOQSOnAYiIc+PfZx11B4LhurQxyqzNq4+IsKtYGp5m8PhPGOMR2Frr4=
+        signature: EEbVDUhTVIt/WVgaXscaPaJsP6CiU+JKEPQENNMHgR2J9URuQGb9TzBB1QzcKA6LR2W0rl0EUso0BgEIXPs8W/bIgPiCPGgLV4mvST2xumTR4u/Z9OAEAvv88jYnAbPOERvk+EqHx11P3DGAJPlwrkHWEgPUTAqrD7zuDuJ++f5nQqSpngCP8s2bSiCiWDt7GJs4AyZzt6pyYEzPl5W4s4FCEqFo/BAs0tZMkhHXv/nZeeSZ0JR0pyPfO4wZomnfqOyV1W04GsQu2RUO3sluqvrAB15pTEGqonie0hjas/AkEPriGhcE/DgMqaP2/RzwrUauYzazQiYlte98UvYO0Tomh4UDetxXA57O8W5oiqUxJyM/4TAseJNUL7hwKPhK9oB0YVSiPB8bHTHUjhzp4v76ZzjwZECbfmXLZXk4NDvYlBsMuGb2xgwn3vTe5NKOCwsQ92bKHfWDuk8EwMipC2rxlokCbeSedHuAptIaj8mmYRg8aC2IzI14Qcr/UYe0vevg8UXWuG6mMXXILr9NvTtHPimC2pLzZhnqMgrU+SbC92+8WX1y6UHKUOYOGuNpmxmuNNsNuyCG7fGiRlL3I91L6qR1myc1xcRFNH8X2wWhYG/nM4/7427xY78nN7hPLfyv0VVfNHO5aRGoqFXQs8dreteBgNeMYrJV+Mxp3Js=
         skinName: doilly
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxOTk4OTU1MDg1MywKICAicHJvZmlsZUlkIiA6ICJkOTdjZmMyNGJkZGM0N2E2YTVhZjAyZjJjY2YwNGYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2lsbHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2NzFhZTFmODY0YTE0MWZiZTViY2MxYzI3MzRiNjBlN2FiZDRmZGVhNTZmZDYwMTY3ZjUyODZkYzBlNDlmYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzYxMjgwMDc2MSwKICAicHJvZmlsZUlkIiA6ICJkOTdjZmMyNGJkZGM0N2E2YTVhZjAyZjJjY2YwNGYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2lsbHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJjYzdlZTM3NjI5NjU2NjAwOWMxMmJlNDQ3ZmYxMzU1NjYwZjY5NmExNzgzODA5NzAxOTE4MGM1OWI4ZmZmZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
       equipment:
         hand:
           type_key: feather
           amount: 1
+          type_namespace: minecraft
+          type: feather
       spawned: true
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       location:
-        bodyYaw: -179.02434
+        bodyYaw: -58.03023
         world: world_draft_city
-        x: -115.5
-        y: 80.9
-        z: 470.5
-        yaw: 176.4451
-        pitch: -0.2757
+        x: -18.5
+        y: 109.9
+        z: 763.5
+        yaw: -58.0302
+        pitch: 57.591
       type: PLAYER
       inventory:
         '0':
-          type_key: feather
+          type: feather
           amount: 1
       commandtrait:
         commands:
@@ -1621,6 +1722,7 @@ npc:
             command: talk 瑞秋
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1631,14 +1733,17 @@ npc:
       sittrait:
         sittingAt:
           world: world_draft_city
-          x: -115.5
-          y: 81.5
-          z: 470.5
-          yaw: 170.713
-          pitch: -20.3379
+          x: -18.5
+          y: 110.5
+          z: 763.5
+          yaw: -82.1988
+          pitch: 46.8001
       mounttrait:
-        mountedon: 4e70f1db-5e2b-4b11-bf52-3f4f99547cf0
-    traitnames: inventory,skintrait,equipment,lookclose,rotationtrait,type,spawned,poses,commandtrait,scoreboardtrait,sittrait,owner,location,mounttrait
+        mountedon: c6c923ac-ca49-441d-ab76-9f4888fefeab
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,inventory,type,sittrait,location,poses
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1664,13 +1769,13 @@ npc:
         skinName: heng_0429
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxODU1OTcyMTg1NCwKICAicHJvZmlsZUlkIiA6ICIxNDMwNjNmYzA3OWQ0ZTg3OWVlOGJmNzcwMjgxNTNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJoZW5nXzA0MjkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5Yzk1ZTc0NTE2MjlhZGQ3ODQ1MjMzMTMxZGE1NTQzMTU3YjhkZjUyYWZhZGVjMWE1ODZhMGU1NDllZTc3NyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5ZDgyYWIxN2ZkOTIwMjJkYmQ0YTg2Y2RlNGMzODJhNzU0MGUxMTdmYWU3YjlhMjg1MzY1ODUwNWE4MDYyNSIKICAgIH0KICB9Cn0=
       location:
-        bodyYaw: -81.9897
+        bodyYaw: -7.304161
         world: world_draft_city
         x: -203.5
         y: 92.0
         z: 470.5
-        yaw: -81.9897
-        pitch: -33.039
+        yaw: -7.3042
+        pitch: 42.477
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       spawned: true
@@ -1680,6 +1785,7 @@ npc:
             command: talk 红叶
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1688,7 +1794,10 @@ npc:
             cost: -1.0
             experienceCost: -1
       boundingbox: {}
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,boundingbox,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,boundingbox,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1714,13 +1823,13 @@ npc:
         skinName: AIII
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxODU1OTcyMTYwMiwKICAicHJvZmlsZUlkIiA6ICI4OTgwNDk3NmVlYTk0MDE4YWQ3ZDAxYjE5MjM1YWJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJhaWlpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkNDMwMWZjYWFmNzMzYzdiNmIyZDczNTdkOWU1ODUyNGY2NTlhNWQ0Y2UwYTRlNTQyZjU0NTZiMWMyZDM5OGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       location:
-        bodyYaw: -58.260895
+        bodyYaw: -40.236176
         world: world_draft_city
         x: -213.5
         y: 98.0
         z: 469.5
-        yaw: -58.2609
-        pitch: 39.591
+        yaw: -40.2362
+        pitch: 31.6781
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       spawned: true
@@ -1730,6 +1839,7 @@ npc:
             command: talk 爱
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1737,7 +1847,10 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1748,6 +1861,8 @@ npc:
     itemprovider:
       type_key: writable_book
       amount: 1
+      type_namespace: minecraft
+      type: writable_book
     traits:
       lookclose:
         range: 8.0
@@ -1775,7 +1890,10 @@ npc:
       boundingbox:
         height: 10.0
         width: 10.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,boundingbox,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,boundingbox,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1786,6 +1904,8 @@ npc:
     itemprovider:
       type_key: writable_book
       amount: 1
+      type_namespace: minecraft
+      type: writable_book
     traits:
       lookclose:
         range: 8.0
@@ -1798,17 +1918,20 @@ npc:
       type: ITEM
       skintrait: {}
       location:
-        bodyYaw: -105.28689
+        bodyYaw: -104.17288
         world: world_draft_city
         x: -238.5
         y: 102.0
         z: 459.5
-        yaw: -105.2869
-        pitch: -17.0305
+        yaw: -104.1729
+        pitch: -16.3614
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       spawned: true
-    traitnames: inventory,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1821,12 +1944,12 @@ npc:
     uuid: 38dff0e3-08a0-4bdc-a7ee-aceefbddd353
     traits:
       location:
-        bodyYaw: -9.096779
+        bodyYaw: -16.069458
         world: world_draft_city
         x: -208.5
         y: 94.0
         z: 508.5
-        yaw: -9.0968
+        yaw: -16.0695
         pitch: 0.0
       commandtrait:
         commands:
@@ -1834,6 +1957,7 @@ npc:
             command: talk 李占
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1857,7 +1981,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1870,19 +1997,20 @@ npc:
     uuid: 5a4664e5-7e3b-4b2c-bc69-dafe4925e6df
     traits:
       location:
-        bodyYaw: -179.9039
+        bodyYaw: -63.93917
         world: world_draft_city
-        x: -84.5
-        y: 80.0
-        z: 470.5
-        yaw: 160.0961
-        pitch: 11.9948
+        x: 264.5
+        y: 132.0
+        z: 437.5
+        yaw: -63.9392
+        pitch: 11.5415
       commandtrait:
         commands:
           '0':
             command: talk 悠然
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1906,7 +2034,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1924,6 +2055,7 @@ npc:
             command: talk 红叶copy1
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -1956,7 +2088,10 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       type: PLAYER
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1996,6 +2131,7 @@ npc:
             command: talk 团子copy3
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2003,7 +2139,10 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2024,6 +2163,7 @@ npc:
             command: talk 和泉copy1
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2056,7 +2196,10 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       type: PLAYER
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned,mounttrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2071,6 +2214,7 @@ npc:
             command: talk 瑞秋copy1
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2079,9 +2223,9 @@ npc:
             cost: -1.0
             experienceCost: -1
       skintrait:
-        signature: rB6HssDn6J/QEvRW2ZrpSv+MeMEIo0uHRhlHT+kZ6Z1Pvu0XkfBfIg2VsIGNnus8mjsMdpPG+cpVBAyNUoOFiVBmUxki0Tsv3JOJT6XemRflEq12Sy++k7SviWzRy1YhAxaCih4t3K2fmgDkuH6/dmFwRjGReF68O+NG43d0/BN3qVOqX6GqR+P17LMF1mR2pbcGIidzBS/SV8Zc4b+PMrgend3N1ZojtgDj6IzH0jHlwJt1HURAFAN95eTmh++epu/AlykVbzT9qNECUVfWJfi5M2PQeAhIpaNrokO06Ww6185sJwCLi7p2Q8kU/7HkAyFwYUjWXdF+vSlQCRS69aVGrs83TPj4Vc6PQyiUKZVuPRmNH8m4NsAbZg0s2jRn9wpjCIZmEpgGauTHduGYOF8xiSdv1Tz327C0MRxit7fhAJCVgex+nSdGONBhD5oe5XWZewBsuEEkOcJOWRPdtjvxqmBPI9Qpz4G+npXhH8FO+a3I9QgyK8NKHVb7gH72D3IdEfReUjGn8myuak+W220+sjhytsV9KDpFPp4asRj92gyIi6N12edGlsgE2kqBj3FP+zAE8HrlVKd+rdPbPiQcleSNxsnhuCBfGXDMugjtlZVum7GBpOQSOnAYiIc+PfZx11B4LhurQxyqzNq4+IsKtYGp5m8PhPGOMR2Frr4=
+        signature: SG9nE0Y0H2gUE6ysSnMOdreHfubUNhTiLEppZHLQ/Mhk4bayP7G1+csKAL/1FBDa0uu8NLTz47wael31Be6TWMTgdAgUnM7tUCVD4i4wjhJNiKEjDRwsYnzg4OlHdepA7LFYsyfPJji93H+XRUpE2644XK5/XC6cLGACL4RhY3E/CbXhHXhM/qwfH4+CqpyhY6BYClypoEhkU4GW9EYj3zGoVvE9k3XwHTC/z9JUK7G5MSgC2EEYOfMx29Z5NKlN1TMnfLaUV1a/KAUa2q8khHinzm9BGCUEpqAZAkYzOGFSJiAKDZW5QnfHDeaV7bydKAmIPGH1p19+3XfBVlOlmeR+CJRjGezPD42NJKIebZ4yPiCAYGMgRw+XQRKyMJQRUnLOrw+BN/fcjrvkF1WkRWeeQyCZ9A7rjdFvOrkBi2rbXltdz5kVDkNcZG+fLekYt55mJgJZvzPwATHn5bvBxtNvTfOU2yv8rWb63ox0y+HpSiKGmqbYYz9wzUqf1ORvrcdbtLyEU1kXsWfa+t2/ECwpXhlz0s0sQqfeEdwsLArqgHe0acHGI90aYCWztMSwh9+ZIWgeUbrozBWNLsORLGagKXuotoE57ytXWQC5s1QIG+aqyw25INZsxWrZSpzRqYQhdNbIl8DEcCBQdt+6uWTj0i+yO5LOSKipefsMgGc=
         skinName: doilly
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxOTk4OTU1MDg1MywKICAicHJvZmlsZUlkIiA6ICJkOTdjZmMyNGJkZGM0N2E2YTVhZjAyZjJjY2YwNGYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2lsbHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2NzFhZTFmODY0YTE0MWZiZTViY2MxYzI3MzRiNjBlN2FiZDRmZGVhNTZmZDYwMTY3ZjUyODZkYzBlNDlmYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzYxMjg3MTk0NywKICAicHJvZmlsZUlkIiA6ICJkOTdjZmMyNGJkZGM0N2E2YTVhZjAyZjJjY2YwNGYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2lsbHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJjYzdlZTM3NjI5NjU2NjAwOWMxMmJlNDQ3ZmYxMzU1NjYwZjY5NmExNzgzODA5NzAxOTE4MGM1OWI4ZmZmZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
       location:
         bodyYaw: -46.433556
         world: world_minecraft_halloween
@@ -2103,15 +2247,12 @@ npc:
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       type: PLAYER
-      inventory:
-        '0':
-          type_key: beetroot_soup
-          amount: 1
-      equipment:
-        hand:
-          type_key: beetroot_soup
-          amount: 1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned,mounttrait
+      inventory: {}
+      equipment: {}
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,inventory,type,targetable,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2132,6 +2273,7 @@ npc:
             command: talk 虚无copy2
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2152,21 +2294,23 @@ npc:
       type: PLAYER
       inventory:
         '0':
-          type_key: redstone
+          type: redstone
           amount: 1
       spawned: true
       equipment:
         hand:
           type_key: redstone
           amount: 1
+          type_namespace: minecraft
+          type: redstone
       location:
-        bodyYaw: -33.449684
+        bodyYaw: -123.63582
         world: world_minecraft_halloween
         x: 77.7195
         y: 26.4
         z: -51.9433
-        yaw: -33.4497
-        pitch: 23.4804
+        yaw: -123.6358
+        pitch: 36.743
       skintrait:
         signature: GJjH4J/G0fUrqc978W71RbKYg2KUq3j9qUsMhenPjELQNAT8o739UosqixwU4dzIPw3r2N5xki1c9hCeqfJCum+OlOWZCh6h+GsKyPtwpeUfwnR8P4tQrTPXgj07Al4GbbE9vg9bsLTg1o+sObWhA3/Vw9vIQtAbruFhfLe/YsKPLyGAgWOB1zTayFcYtJRiKcMhfVCz5FpbbUIHVDb1JyxHVNMLd7V0Q4E/kopcFKBbCt5+/rU6Vo9SXYcCcEwab+9ghFpSLzWKDzfGKn2cwrdrxWew4Ew3yqvdP9jTsdYvqkg0AH7BNzgyxuC8E2w6OPcAhgeVthj5tHd1dQ2XBZtk+Mm/+GDonJ1VH8ky9rxIa56JTW5N+wULatDD0RL9gHzuzBe+VbdSlJk+vFNgGQVyWPopuHR38yY1ZECrrSgk+SWUJ+/TzTbV4wLZamE18PWVT4StLnLHiZgrrwZfTgFqKCr23mVzDC6h9eLUmQtjc+tnS/lmozEcPQgPHavA7BMTgOToSmaPcDxF0thqGAAnAu99OUadzpphhEOtgzzOV4Xs4vZzhaHdmKTv4Psgcw+8BZxhHwEaGJ7qP9Buar30sNW1vXKJYT+15+Rt81IgAiGUXclCJCtLUgq/lymCTABDv1EIfNjo8Q6ZsLtOIFLhDziqN9okaofoy7X4mvQ=
         skinName: dark_n0va
@@ -2179,7 +2323,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,sittrait,owner,equipment,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,skintrait,lookclose,equipment,inventory,type,targetable,sittrait,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2197,6 +2344,7 @@ npc:
             command: talk 虚无copy1
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2229,7 +2377,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2247,6 +2398,7 @@ npc:
             command: talk 虚无
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2279,7 +2431,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2297,6 +2452,7 @@ npc:
             command: talk 虚无copy3
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2309,13 +2465,15 @@ npc:
       type: PLAYER
       inventory:
         '0':
-          type_key: bone
+          type: bone
           amount: 1
       spawned: true
       equipment:
         hand:
           type_key: bone
           amount: 1
+          type_namespace: minecraft
+          type: bone
       location:
         bodyYaw: 33.94773
         world: world_minecraft_halloween
@@ -2337,7 +2495,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,equipment,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2350,13 +2511,13 @@ npc:
     uuid: 6df42a0d-7955-4189-a054-8d68846f3a80
     traits:
       location:
-        bodyYaw: 89.9153
+        bodyYaw: -8.202805
         world: world_draft_city
-        x: 64.5
-        y: 95.0
-        z: 414.5
-        yaw: 93.3618
-        pitch: -28.5036
+        x: 28.5
+        y: 106.0
+        z: 455.5
+        yaw: -8.2028
+        pitch: 75.4248
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
       skintrait:
@@ -2379,6 +2540,7 @@ npc:
             command: talk 雪奈
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2386,7 +2548,20 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      equipment:
+        hand:
+          type_key: glow_berries
+          amount: 1
+          type_namespace: minecraft
+          type: glow_berries
+      inventory:
+        '0':
+          type: glow_berries
+          amount: 1
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2404,6 +2579,7 @@ npc:
             command: talk 赵戎
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2433,7 +2609,10 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2461,6 +2640,7 @@ npc:
             command: talk 雪奈copy1
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2480,13 +2660,16 @@ npc:
       location:
         bodyYaw: -108.475235
         world: world_minecraft_halloween
-        x: 186.3844
+        x: 184.6623
         y: 21.0
-        z: -51.3815
+        z: -58.5257
         yaw: -108.4752
         pitch: 13.6163
       type: PLAYER
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2496,12 +2679,12 @@ npc:
     uuid: 34cbda57-3f30-4082-8828-04d1964d7c81
     traits:
       location:
-        bodyYaw: -162.40826
+        bodyYaw: -127.06393
         world: world_draft_city
-        x: 37.5
-        y: 82.0
-        z: 383.5
-        yaw: -162.4083
+        x: 70.5
+        y: 85.0
+        z: 402.5
+        yaw: -127.0639
         pitch: 0.0
       type: CREEPER
       lookclose:
@@ -2520,6 +2703,7 @@ npc:
             command: talk 雪奈copy2
             hand: BOTH
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2529,7 +2713,10 @@ npc:
             experienceCost: -1
       skintrait: {}
       spawned: true
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2561,6 +2748,7 @@ npc:
             command: talk 赵氏遗老
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -2579,7 +2767,430 @@ npc:
       spawned: true
       owner:
         uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
-    traitnames: inventory,commandtrait,scoreboardtrait,skintrait,owner,lookclose,rotationtrait,location,type,spawned
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '127':
+    metadata:
+      cached-skin-uuid: d97cfc24-bddc-47a6-a5af-02f2ccf04f21
+      cached-skin-uuid-name: doilly
+    name: 瑞秋
+    uuid: 837daae2-a489-49d2-a119-619f6e2bbab5
+    traits:
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: GeM2lDsiWev1VaCk4p31YYCoGJTcU83apzDr14k9zZ5IFNIYelYGYItk5RpEpiSSes0nhNy1LPXheMniEF353aiYu1t2KPb4XfXmOWBa34o2MMYbzRM8lTcc70TTjRRL/b5KvkgxKMmKOyl5oE2MgMnJPm9lxwzZ+IQDBOnBxteci5Bx479IwPiIZ5p3VP77+eiubcvW0+a2VeFsE3arRBB0dmubnU58XJDbi0yOzXlRABK9alvVVPmxulB6QjrmOunBZC5y9hfdKZHeSHJfFN1T+HWyA9+jyYEQ7Xk6U6ANlvj1hQkzln7yOCwW3riXCupdJX/Zo/4q97EYtCvNguKR9j1zoKR8vUT2u64JPu/pwfwpfZHk3ywNYzVtOX3EdhgseqOmt+E+cfXOTQVMvzrJmjEDDmqg9JMg20uTZXTl6UNvh/O6zzUcMAXXijJkFXMAuDxgrDiMwWGELOO/kbRw6lbMyS5VZg8RA+VQbfFTA8oKC/eMlDEjHC3LjnTvATKZsPlUBc/TJhyjdSepuWU19yGt0oJE9N/sRcPHoEjDow6/lZ5yeBa86Ux9RlJCsEBD6xBHJ4LGlZENvcoHrQtAL26TxYiTLyM83lWjx4kz8NXnjyoD+ckhNfjP+W/qaaymgc0ELh+WwjjbjzRf6SX9OgNnWIzCN4jLV+nGzZM=
+        skinName: doilly
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzYxMjY5MTQxOSwKICAicHJvZmlsZUlkIiA6ICJkOTdjZmMyNGJkZGM0N2E2YTVhZjAyZjJjY2YwNGYyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2lsbHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJjYzdlZTM3NjI5NjU2NjAwOWMxMmJlNDQ3ZmYxMzU1NjYwZjY5NmExNzgzODA5NzAxOTE4MGM1OWI4ZmZmZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      location:
+        bodyYaw: 31.204842
+        world: world_draft_city
+        x: -110.5
+        y: 80.9
+        z: 609.5
+        yaw: 31.2048
+        pitch: -1.3312
+      spawned: true
+      sittrait:
+        sittingAt:
+          world: world_draft_city
+          x: -110.5
+          y: 81.5
+          z: 609.5
+          yaw: -105.1272
+          pitch: -21.0041
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: talk 瑞秋copy2
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,sittrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '129':
+    metadata:
+      cached-skin-uuid: c559fff7-98f7-4816-ac25-5952ce573c84
+      cached-skin-uuid-name: fire__lotus
+    name: 莲
+    uuid: d9313111-9656-4bfd-b813-011d17dc86ac
+    traits:
+      equipment:
+        hand:
+          type_key: iron_sword
+          amount: 1
+          type_namespace: minecraft
+          type: iron_sword
+      lookclose:
+        range: 8.0
+        enabled: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 89.78334
+        world: world_draft_city
+        x: -343.5
+        y: 83.0
+        z: 770.5
+        yaw: 89.7833
+        pitch: 45.0907
+      type: PLAYER
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      skintrait:
+        signature: BdtRf2woegPFqyEFWyLwSyml23DSPVHlcklyRwTzbthLP7/qSxQ7GdBpNhVYsdWuYuxBdb9GiOWym7oGgxw9Hl1jwGNhsTNrpmyZypvVwfjzncjdjMi+uNFW06cf1GerjOntoCwVfyDWMGd5NrNZ3d2HyMyqBEETk6+hkP+ypQjMQ2+iU77GySmYr/BHcFsuqTBSl0TIEx6HCnGdmbzRsGF0nuhHV0IJgsYqAqe/Po3LI1jQcqZ0qVqygJ3ubBe6Vm6VFNvuma3p/C5Gj+5tIPcgtpev9kRLstUoeDySA6s4w8nIR1X44mkNTQaDWaAN+7106YKLX92tArrDH2IAwlvHHRWR+R/7GNTygO8I3d3UZeByJxdShr9lm7u8wGHAZo/mtq7uZbjC7kp1I1d3hDzPHlnVDJiuiLZiGALLD5oQD6PwwGf61chMy9ugcLYMLcYAwwkFPN1padnh7rI2wbgMabAohNRenSQDsjD2e6K8Wp7kp5eao9uoTeQaAz3I4laXvREQyjbZZAekpvGgqSnpgFcNZQRCHvm8EJqKYxCwTfojLIhxiJWyunoYw2mAFs2oqTVRcJKC+kmeQpi/rurQo5BYyk5Okbbn2vs9xnMSAh4YJ2dO9maZe2qJEjse8eo52BFudCJkO7782YHPHY2OZ887OQPnFYdxDo8F5c8=
+        skinName: fire__lotus
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzY4ODkyNDU5NiwKICAicHJvZmlsZUlkIiA6ICJjNTU5ZmZmNzk4Zjc0ODE2YWMyNTU5NTJjZTU3M2M4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlX19sb3R1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMGRiZDY3OTM2ZWNkOWMyZWM1YzVmYmVmYzdjNmFiN2E5OTA4YWRlNTBmZmYwMjM2M2Y5NDQyNWE0OWI1YzE5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      inventory:
+        '0':
+          type: iron_sword
+          amount: 1
+      commandtrait:
+        commands:
+          '0':
+            command: talk 莲
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      spawned: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,equipment,location,inventory,type,sittrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '128':
+    metadata:
+      cached-skin-uuid: 3959cd59-8999-44f3-81ce-9d39b98dae94
+      cached-skin-uuid-name: rainbow7030
+    name: 明镜
+    uuid: 20cad3cb-fbcb-4f87-a90b-c848b3e1b156
+    traits:
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -170.20036
+        world: world_draft_city
+        x: -343.5
+        y: 64.0
+        z: 770.5
+        yaw: -170.2004
+        pitch: 13.2924
+      type: PLAYER
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      skintrait:
+        signature: XTcidVg2w2eHa+8JAbjExqsYcSwIEggRKlAYY/Dv+TTBKg1U1CVC0IbQHHb/G3lcLuBLuUaFmwFojfpbHi+3ZfBj+TywDHaRCTBhC8vy/zMKZqEjhGUkrQmPE0CMrLS07/KUi0E1RBURCT4WqOYKX8qWD7OElfgZDp2qr6IHG0vM4BpvOBv3ytI1IUtwrufDvUsVHSh/ijROMPTSwBGYncinUelpEBYrnRQqsvCnPuA9ostBPM4zmPM5UuWCYpDmuucoTipaOutFA8V1WS0On6hSthlQVrzlXTs8/WgvCG8j5hMDvAuy1P2KUzpjgaz7yAFuii4WA8lRuXWejNm+7s8SozQe+aKPEFiRJWGYk8Jo8J8NoXCF3L9tV6WTzMRQxQZwb09AfUJHiLpSsny2uKFd6wbc4ei7Xeq68tsgkR5iG7dzbnUbGCfPErgPZC8o5tD5auv+1kqCrTAbolgWLk2/DMcPj1eD7mnIT4xK6kvjvZbwS60en+Mxq95bC1oUBafuCDjO8BbcrP62PdvBrVIniykB9esgxskyVarlDontdSboMt2e8SAc8oFm8uanEaw19MOfzI2SL/+iygUImGPDqlQCOeTNAluqLPX18VszYcKOKSpqfjP1f+KO5oRvI1V+ISORUiuMXGfqy2KSx6vgbbR7m6numZqAr1UJWR4=
+        skinName: rainbow7030
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzY4ODU5NTEwOCwKICAicHJvZmlsZUlkIiA6ICIzOTU5Y2Q1OTg5OTk0NGYzODFjZTlkMzliOThkYWU5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYWluYm93NzAzMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDNjMzEwMzk4ZWYxMjI3NTlmMjhlNTVhZGFmM2U0MGM0NzgyOWU2ZTdhYWJlZDkxM2VmOGI3NTVkOTY2MzViIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5ZDgyYWIxN2ZkOTIwMjJkYmQ0YTg2Y2RlNGMzODJhNzU0MGUxMTdmYWU3YjlhMjg1MzY1ODUwNWE4MDYyNSIKICAgIH0KICB9Cn0=
+      commandtrait:
+        commands:
+          '0':
+            command: talk 明镜
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      spawned: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '130':
+    metadata:
+      cached-skin-uuid: dc19f1f6-ac0d-4afc-b3f9-99fd18233b8d
+      cached-skin-uuid-name: xmxiaomeng
+    name: 小梦
+    uuid: 83279a6c-47ce-46cd-974e-715c278cca66
+    traits:
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 110.13678
+        world: world_draft_city
+        x: -343.5
+        y: 63.0
+        z: 758.5
+        yaw: 98.7413
+        pitch: -37.8323
+      type: PLAYER
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      skintrait:
+        signature: O+gh6s1rtNu+UJ1wykvJNpp6MHp2Ob7p3SHBCvkq2JfsQNAaL1tV3b6VQ1W4mXmhTZjAp6IW2Cv9cHKF5/WfwJVcL+ry2B/CmM6jNDfnAabrvrjsf+XxX5M8t1k0yP/7/noHJMYPm0cM096/xP96mM2xdNMl2D4Mg0UnSD1ncb0GFZmJagh4zTukyha69KPI8nGtMmYRmDxVbybxBPDigAUBWFL5iuqWhXRzHMBG+0YPgRArZl0DL+QwlujFTh9oSGLLjm9sjTXcCq2DUvICd48q+V+NfWO766TCUaZhTTaWtHkmmivSplrfISDQAr4xlGwBNB9Eu+DcEP06ttTVsy9Sw9e88qjgpCMDXh0dCDS4JS2zni2k8siiT7DMZA4llMKRWSnIPxlTso/+Y3xwKvkcWAdi6ZIajQeeBBYDbu5CC46sW0XdOIH2VfADWVwukZ2IpP2rh+13BT1pnngQD+7qHLHlvJmKH48vqFxU+jgJTlAwofA85WRVW8zWw4N/Q9TnUSDi/plJoYCjeaZpd4UHfkKXyv7KzarnXWpbjqJu0VfoIztnFPgP56Z+RhItJ27AyHPUmgv5Z48qItYRTf9xd/WH/EMIKMZ6MbDbFd60rOHFtukNTkhW5jndQhcmKL/5TNntNNmU3gTOYtklnDSl/YpeUD6DAw0Aj9lubB0=
+        skinName: XMxiaomeng
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzcwOTk3NTEzMSwKICAicHJvZmlsZUlkIiA6ICJkYzE5ZjFmNmFjMGQ0YWZjYjNmOTk5ZmQxODIzM2I4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJYTXhpYW9tZW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3MGZjOGUxMDIxZjNkOTZiOTAzNWQwMGZlNTIyNGU5NjNiNWQ3N2QwYzM5ZmNkZTU1NDM2ZWVkMzMzMjA4YTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      commandtrait:
+        commands:
+          '0':
+            command: talk 小梦
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      spawned: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '134':
+    name: '&a领取雪球'
+    uuid: d7483900-c6b7-4ad5-8bcf-8934fa6e956c
+    traits:
+      commandtrait:
+        commands:
+          '0':
+            command: talk 领取雪球copy2
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: -116.202484
+        world: world_minecraft_christmas
+        x: -640.5
+        y: 178.0
+        z: 227.5
+        yaw: -116.2025
+        pitch: 0.0
+      type: SNOW_GOLEM
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,lookclose,location,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '133':
+    name: '&a领取雪球'
+    uuid: 60bce5da-8a5b-4ec9-a458-703e05fbee07
+    traits:
+      commandtrait:
+        commands:
+          '0':
+            command: talk 领取雪球
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: -117.56803
+        world: world_minecraft_christmas
+        x: -636.5
+        y: 171.0
+        z: 275.5
+        yaw: -117.568
+        pitch: 0.0
+      type: SNOW_GOLEM
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,lookclose,location,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '135':
+    name: '&a领取雪球'
+    uuid: 58376590-ccdb-4b59-898f-1448e79d6f8a
+    traits:
+      commandtrait:
+        commands:
+          '0':
+            command: talk 领取雪球copy1
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: 59.443726
+        world: world_minecraft_christmas
+        x: -689.5
+        y: 170.0
+        z: 226.5
+        yaw: 59.4437
+        pitch: 0.0
+      type: SNOW_GOLEM
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,lookclose,location,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '137':
+    metadata:
+      flyable: true
+      minecraft-ai: false
+    name: 签到
+    uuid: ac882722-9bf2-48cf-8c65-31e5baa2ad79
+    traits:
+      type: BEE
+      lookclose:
+        range: 8.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 31.597023
+        world: world_draft_city
+        x: -156.5
+        y: 81.0
+        z: 453.5
+        yaw: 31.597
+        pitch: 0.0
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: talk 签到
+            hand: BOTH
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      gravity:
+        enabled: true
+      owner:
+        uuid: e6bccd09-1c8a-3fcf-92b9-afa792d206a0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,gravity,skintrait,lookclose,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
